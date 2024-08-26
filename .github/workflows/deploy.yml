@@ -10,11 +10,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    env:
-      VITE_ALATPAY_API_KEY: ${{ secrets.VITE_ALATPAY_API_KEY }}
-      VITE_ALATPAY_BUSINESS_ID: ${{ secrets.VITE_ALATPAY_BUSINESS_ID }}
-      VITE_API_BASE_URL: ${{ secrets.VITE_API_BASE_URL }}
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2

@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import { CarSide, Housekey, HouseSignal, Warehouse } from "./assets";
-import { packages, reveiews } from "./utils/data";
+import { packages } from "./utils/data";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCards } from "swiper/modules";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { EffectCards } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
