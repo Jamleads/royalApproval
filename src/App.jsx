@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import { CarSide, Housekey, HouseSignal, Warehouse } from "./assets";
-import { packages } from "./utils/data";
+import { packages, reveiews } from "./utils/data";
 // Import Swiper React components
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { EffectCards } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCards } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -286,14 +286,14 @@ function App() {
         </section>
 
         {/* <!-- Pricing --> */}
-        {/* <section id="pricing" className="md:my-40 pt-40 mt-20">
+        <section id="pricing" className="md:my-40 pt-40 mt-20">
           <div className="md:w-[80%] w-[90%] mx-auto">
             <div className="text-center underline py-2 lg:my-20 text-theDarkGold lg:text-[100px] text-[50px]">
               Our Price List
             </div>
 
             <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
-              <div className="bg-white shadow-lg rounded-lg">
+              {/* <div className="bg-white shadow-lg rounded-lg">
                 <div>
                   <video autoPlay muted loop>
                     <source
@@ -364,7 +364,7 @@ function App() {
                     packages also include 2 snap stubs.
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="bg-white shadow-lg rounded-lg">
                 <div>
@@ -547,10 +547,10 @@ function App() {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/* <!-- testimones --> */}
-        {/* <section id="testimones" className="md:my-40 pt-40 mt-20">
+        <section id="testimones" className="md:my-40 pt-40 mt-20">
           <div className="md:w-[80%] w-[90%] mx-auto">
             <div className="flex gap-10 md:flex-row flex-col">
               <div className="lg:w-1/2">
@@ -588,14 +588,6 @@ function App() {
                     denied, We will continue on with another apartment. The
                     purchasing of another package is not necessary and we will
                     work with you until approved.
-                  </p>
-
-                  <p>
-                    Payment disclaimer We don’t allow payments directly on the
-                    website. If you are interested in one of our services that
-                    we offer and would like to purchase you'll have to book a
-                    free consultation with a staff member. We will then provide
-                    you with the steps to submit a payment.
                   </p>
 
                   <div className="mt-10">
@@ -643,7 +635,7 @@ function App() {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/* <!-- Footer Section --> */}
         <footer className="bg-theDarkGold text-white py-6 flex items-center justify-center">
