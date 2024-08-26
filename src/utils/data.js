@@ -201,6 +201,18 @@ export const packages = [
     ],
   },
   {
+    id: 1,
+    price: "$650",
+    name: "Basic Aditional",
+    paymentUrl: "https://square.link/u/h5li11Vf",
+    benefits: [
+      {
+        title: "EXTRA TO BASIC PACKAGE WITH 48 HOURS SCORE POST",
+        description: "",
+      },
+    ],
+  },
+  {
     id: 2,
     price: "$600",
     name: "Deluxe Package",
@@ -239,6 +251,18 @@ export const packages = [
     ],
   },
   {
+    id: 1,
+    price: "$750",
+    name: "Deluxe Aditional",
+    paymentUrl: "https://square.link/u/pW0yhV6h",
+    benefits: [
+      {
+        title: "EXTRA TO DELUXE PACKAGE WITH 48 HOURS SCORE POST",
+        description: "",
+      },
+    ],
+  },
+  {
     id: 3,
     price: "$800",
     name: "Premium Package",
@@ -273,6 +297,18 @@ export const packages = [
       {
         title: "7. Standard Processing Time:",
         description: "The typical processing time for the profile is 72 hours",
+      },
+    ],
+  },
+  {
+    id: 1,
+    price: "$950",
+    name: "Premium Aditional",
+    paymentUrl: "https://square.link/u/1lyaINhM",
+    benefits: [
+      {
+        title: "EXTRA TO PREMIUM PACKAGE WITH 48 HOURS SCORE POST",
+        description: "",
       },
     ],
   },
@@ -319,6 +355,18 @@ export const packages = [
       {
         title: "THIS PACKAGE IS GOOD FOR CAR, CARE CREDIT, LOANS",
         description: "and more",
+      },
+    ],
+  },
+  {
+    id: 1,
+    price: "$1,500",
+    name: "Luxary Aditional",
+    paymentUrl: "https://square.link/u/QJi8fu8l",
+    benefits: [
+      {
+        title: "EXTRA TO LUXARY PACKAGE WITH 48 HOURS SCORE POST",
+        description: "",
       },
     ],
   },
