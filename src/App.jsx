@@ -166,7 +166,7 @@ function App() {
         </section>
 
         {/* <!-- Services Section --> */}
-        <section id="services" className="md:my-40 pt-40 mt-20">
+        <section id="services" className="md:my-40 md:pt-40">
           <div className="text-center underline py-2 lg:my-20 text-theDarkGold lg:text-[100px] text-[50px]">
             Our Services
           </div>
@@ -250,7 +250,7 @@ function App() {
 
         {/* <!-- Special Product --> */}
         <section>
-          <div className="md:w-[80%] mx-auto w-[90%]">
+          <div className="md:w-[80%] mx-auto w-[90%] mt-20">
             <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
               {packages.map((pkg, index) => (
                 <div key={index} className="">
@@ -286,7 +286,7 @@ function App() {
         </section>
 
         {/* <!-- Pricing --> */}
-        <section id="pricing" className="md:my-40 pt-40 mt-20">
+        <section id="pricing" className="md:my-40 md:pt-40 mt-20">
           <div className="md:w-[80%] w-[90%] mx-auto">
             <div className="text-center underline py-2 lg:my-20 text-theDarkGold lg:text-[100px] text-[50px]">
               Our Price List
@@ -550,7 +550,7 @@ function App() {
         </section>
 
         {/* <!-- testimones --> */}
-        <section id="testimones" className="md:my-40 pt-40 mt-20">
+        <section id="testimones" className="md:my-40 md:pt-40 mt-20">
           <div className="md:w-[80%] w-[90%] mx-auto">
             <div className="flex gap-10 md:flex-row flex-col">
               <div className="lg:w-1/2">
