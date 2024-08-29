@@ -519,7 +519,7 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$95</p>
+                        <p className="text-xl">$125</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base">
                         Offer Letter/Verification
