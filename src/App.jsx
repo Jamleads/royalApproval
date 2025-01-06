@@ -23,7 +23,7 @@ function App() {
               <div className="w-[80px] h-[80px] flex items-center justify-center">
                 <img src="/logo.jpg" alt="" />
               </div>
-              <h1 className="text-2xl leading-10">Royal Approvals</h1>
+              <h1 className="text-2xl leading-10">Royal Oasis</h1>
             </div>
 
             <nav>
@@ -82,7 +82,7 @@ function App() {
           </video>
           <div className="relative container mx-auto px-4 flex items-center justify-center h-full">
             <div className="text-center">
-              <h2 className="md:text-[100px] text-5xl">ROYAL APPROVALS</h2>
+              <h2 className="md:text-[100px] text-5xl">ROYAL OASIS</h2>
               <p className="md:text-xl text-sm mb-8">
                 we specialize in helping individuals secure approvals for
                 apartments and cars
@@ -91,7 +91,7 @@ function App() {
               <div className="flex item-center justify-center">
                 <div className="md:flex gap-5">
                   <a
-                    href="tel:+17328544951"
+                    href="tel:+14105981300"
                     target="_blank"
                     className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                   >
@@ -133,19 +133,20 @@ function App() {
                 className="lg:text-[40px] text-[20px] font-bold text-the_yellow"
                 data-aos="fade-down-right"
               >
-                Royal Approvals specialize in helping individuals secure
-                approvals for apartments and cars.
+                Royal Oasis specialize in helping individuals secure approvals
+                for apartments and cars.
               </h1>
               <p data-aos="fade-down-right">
-                At Royal Approvals, we recognize the difficulties and
-                frustrations involved in securing housing and transportation.
-                Our mission is to ensure a smooth, efficient approval process,
-                providing our clients with reliable support and peace of mind
-                every step of the way.
+                At Royal Oasis, we recognize the difficulties and frustrations
+                involved in securing housing and transportation. Our mission is
+                to ensure a smooth, efficient approval process, providing our
+                clients with reliable support and peace of mind every step of
+                the way.
               </p>
               <div className="mt-10">
                 <a
-                  href="tel:+17328544951"
+                  // href="tel:+17328544951"
+                  href="tel:+14105981300"
                   target="_blank"
                   className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                   data-aos="fade-down-right"
@@ -293,79 +294,6 @@ function App() {
             </div>
 
             <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
-              {/* <div className="bg-white shadow-lg rounded-lg">
-                <div>
-                  <video autoPlay muted loop>
-                    <source
-                      src="/House.mp4"
-                      type="video/mp4"
-                      className="w-full !h-[60vh]"
-                    />
-                  </video>
-                </div>
-                <div className="py-5 px-10">
-                  <h3 className="text-lg text-center font-semibold mb-2">
-                    APARTMENT PACKAGE
-                  </h3>
-
-                  <div className="flex flex-col gap-10 my-10">
-                    <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
-                      data-aos="fade-down-right"
-                    >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$500</p>
-                      </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
-                        Basic Package
-                      </div>
-                    </div>
-
-                    <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
-                      data-aos="fade-down-right"
-                    >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$600</p>
-                      </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
-                        Deluxe
-                      </div>
-                    </div>
-
-                    <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
-                      data-aos="fade-down-right"
-                    >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$800</p>
-                      </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
-                        Premium
-                      </div>
-                    </div>
-
-                    <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
-                      data-aos="fade-down-right"
-                    >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$1200</p>
-                      </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
-                        house package <br />
-                        Package takes 60 days to complete
-                      </div>
-                    </div>
-                  </div>
-
-                  <p className="text-center text-sm mt-4">
-                    All packages come with rental and employee verification, all
-                    packages also include 2 snap stubs.
-                  </p>
-                </div>
-              </div> */}
-
               <div className="bg-white shadow-lg rounded-lg">
                 <div>
                   <video autoPlay muted loop>
@@ -387,7 +315,7 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$50</p>
+                        <p className="text-xl">$45</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base">
                         Light Bill
@@ -399,10 +327,32 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$50</p>
+                        <p className="text-xl">$45</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base">
                         Doctor Note
+                      </div>
+                    </div>
+                    <div
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      data-aos="fade-down-right"
+                    >
+                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                        <p className="text-xl">$75</p>
+                      </div>
+                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                        Lease Agreement
+                      </div>
+                    </div>
+                    <div
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      data-aos="fade-down-right"
+                    >
+                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                        <p className="text-xl">$85</p>
+                      </div>
+                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                        Car Insurance
                       </div>
                     </div>
 
@@ -423,10 +373,55 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$250</p>
+                        <p className="text-xl">$270</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base">
                         GED/HS Diploma
+                      </div>
+                    </div>
+
+                    <div
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      data-aos="fade-down-right"
+                    >
+                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                        <p className="text-xl">$95</p>
+                      </div>
+                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                        Digital Id
+                      </div>
+                    </div>
+                    <div
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      data-aos="fade-down-right"
+                    >
+                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                        <p className="text-xl">$380</p>
+                      </div>
+                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                        Physical Id Overnight Shipping
+                      </div>
+                    </div>
+                    <div
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      data-aos="fade-down-right"
+                    >
+                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                        <p className="text-xl">$150</p>
+                      </div>
+                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                        Digital SSC
+                      </div>
+                    </div>
+                    <div
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      data-aos="fade-down-right"
+                    >
+                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                        <p className="text-xl">$365</p>
+                      </div>
+                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                        Physical SSC Overnight Shipping
                       </div>
                     </div>
 
@@ -447,10 +442,22 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$125 Each</p>
+                        <p className="text-xl">$75 Each</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base">
                         Bank Statement
+                      </div>
+                    </div>
+
+                    <div
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      data-aos="fade-down-right"
+                    >
+                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                        <p className="text-xl">$65</p>
+                      </div>
+                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                        Regular Pay Stub
                       </div>
                     </div>
                   </div>
@@ -472,13 +479,14 @@ function App() {
                     />
                   </video>
                 </div>
+
                 <div className="py-5 px-10">
                   <h3 className="text-lg text-center font-semibold mb-2">
                     SNAPT STUBS WITH VERIFICATION
                   </h3>
 
                   <div className="flex flex-col gap-10 my-10">
-                    <div
+                    {/* <div
                       className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
                       data-aos="fade-down-right"
                     >
@@ -488,7 +496,7 @@ function App() {
                       <div className="w-3/5 h-full flex items-center justify-center text-base">
                         Snap Stubs with Verification
                       </div>
-                    </div>
+                    </div> */}
 
                     <div
                       className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
@@ -519,10 +527,21 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$125</p>
+                        <p className="text-xl">$85</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base">
-                        Offer Letter/Verification
+                        Offer Letter
+                      </div>
+                    </div>
+                    <div
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      data-aos="fade-down-right"
+                    >
+                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                        <p className="text-xl">$105</p>
+                      </div>
+                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                        Offer Letter With Verification
                       </div>
                     </div>
 
@@ -562,8 +581,8 @@ function App() {
                     Hear What Our Customers Say About Us
                   </h1>
                   <p>
-                    At Royal Approvals, we pride ourselves on putting smiles on
-                    the faces of countless individuals by helping them secure
+                    At Royal Oasis, we pride ourselves on putting smiles on the
+                    faces of countless individuals by helping them secure
                     approvals for their dream homes and cars. Our clients
                     consistently express their gratitude for our efficient,
                     supportive, and seamless approval process. We understand the
@@ -592,7 +611,7 @@ function App() {
 
                   <div className="mt-10">
                     <a
-                      href="tel:+17328544951"
+                      href="tel:+14105981300"
                       target="_blank"
                       className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                     >

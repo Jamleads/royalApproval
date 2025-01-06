@@ -172,7 +172,7 @@ export const reveiews = [
 export const packages = [
   {
     id: 1,
-    price: "$500",
+    price: "$580",
     name: "Basic Package",
     paymentUrl: "https://square.link/u/lafMkYN3",
     benefits: [
@@ -180,52 +180,56 @@ export const packages = [
         title: "1. Profile Number Assigned:",
         description: "A unique profile number is attached",
       },
+      // {
+      //   title: "2. Verified Paystubs:",
+      //   description: "The package includes two verified paystubs",
+      // },
       {
-        title: "2. Verified Paystubs:",
-        description: "The package includes two verified paystubs",
-      },
-      {
-        title: "3. Employment and Residential Verification:",
+        title: "2. Employment and Residential Verification:",
         description:
           "Verification of both employment and residential information is included, ensuring that all necessary details are accurate and valid",
       },
       {
-        title: "4. Self-Apply Package:",
+        title: "3. Self-Apply Package:",
         description: "This is marketed as a self-application package",
       },
       {
-        title: "5. Standard Processing Time:",
+        title: "4. Standard Processing Time:",
         description:
           "Without the expedited option, the profile will be completed in 72 hours",
       },
     ],
   },
-  {
-    id: 1,
-    price: "$650",
-    name: "Basic Aditional",
-    paymentUrl: "https://square.link/u/h5li11Vf",
-    benefits: [
-      {
-        title: "EXTRA TO BASIC PACKAGE WITH 48 HOURS SCORE POST",
-        description: "",
-      },
-    ],
-  },
+  // {
+  //   id: 1,
+  //   price: "$650",
+  //   name: "Basic Aditional",
+  //   paymentUrl: "https://square.link/u/h5li11Vf",
+  //   benefits: [
+  //     {
+  //       title: "EXTRA TO BASIC PACKAGE WITH 48 HOURS SCORE POST",
+  //       description: "",
+  //     },
+  //   ],
+  // },
   {
     id: 2,
-    price: "$600",
+    price: "$780",
     name: "Deluxe Package",
     paymentUrl: "https://square.link/u/mebYh1ep",
     benefits: [
       {
-        title: "1. Profile Attached to Your Name:",
-        description: "A personalized profile is created and attached",
+        title: "1. Credit score:",
+        description: "650 and above",
       },
       {
-        title: "2. Verified Paystubs:",
-        description: "The package includes two verified paystubs",
+        title: "2. Profile Attached to Your Name:",
+        description: "A personalized profile is created and attached",
       },
+      // {
+      //   title: "2. Verified Paystubs:",
+      //   description: "The package includes two verified paystubs",
+      // },
       {
         title: "3. Employment and Residential Verification:",
         description:
@@ -240,31 +244,31 @@ export const packages = [
         title: "5. Public Records:",
         description: "Access to 200 public records",
       },
+      // {
+      //   title: "6. Digital Novelty SSN:",
+      //   description: "Offers a digital novelty Social Security Number (SSN)",
+      // },
       {
-        title: "6. Digital Novelty SSN:",
-        description: "Offers a digital novelty Social Security Number (SSN)",
-      },
-      {
-        title: "7. Standard Processing Time:",
+        title: "6. Standard Processing Time:",
         description: "The typical processing time for the profile is 72 hours",
       },
     ],
   },
-  {
-    id: 1,
-    price: "$750",
-    name: "Deluxe Aditional",
-    paymentUrl: "https://square.link/u/pW0yhV6h",
-    benefits: [
-      {
-        title: "EXTRA TO DELUXE PACKAGE WITH 48 HOURS SCORE POST",
-        description: "",
-      },
-    ],
-  },
+  // {
+  //   id: 1,
+  //   price: "$750",
+  //   name: "Deluxe Aditional",
+  //   paymentUrl: "https://square.link/u/pW0yhV6h",
+  //   benefits: [
+  //     {
+  //       title: "EXTRA TO DELUXE PACKAGE WITH 48 HOURS SCORE POST",
+  //       description: "",
+  //     },
+  //   ],
+  // },
   {
     id: 3,
-    price: "$800",
+    price: "$850",
     name: "Premium Package",
     paymentUrl: "https://square.link/u/sIaXfc7G",
     benefits: [
@@ -272,12 +276,12 @@ export const packages = [
         title: "1. Profile Attached to Your Name:",
         description: "A personalized profile is created and attached",
       },
+      // {
+      //   title: "2. Verified Paystubs:",
+      //   description: "The package includes two verified paystubs",
+      // },
       {
-        title: "2. Verified Paystubs:",
-        description: "The package includes two verified paystubs",
-      },
-      {
-        title: "3. Employment and Residential Verification:",
+        title: "2. Employment and Residential Verification:",
         description:
           "The package ensures both employment and residential information are verified for accuracy and credibility",
       },
@@ -287,87 +291,87 @@ export const packages = [
           "Includes one tradeline, which might help build or enhance credit history",
       },
       {
-        title: "5. Public Records:",
+        title: "4. Public Records:",
         description: "Access to 300 public records",
       },
+      // {
+      //   title: "6. Digital Novelty SSN:",
+      //   description: "Offers a digital novelty Social Security Number (SSN)",
+      // },
       {
-        title: "6. Digital Novelty SSN:",
-        description: "Offers a digital novelty Social Security Number (SSN)",
-      },
-      {
-        title: "7. Standard Processing Time:",
+        title: "5. Standard Processing Time:",
         description: "The typical processing time for the profile is 72 hours",
       },
     ],
   },
-  {
-    id: 1,
-    price: "$950",
-    name: "Premium Aditional",
-    paymentUrl: "https://square.link/u/1lyaINhM",
-    benefits: [
-      {
-        title: "EXTRA TO PREMIUM PACKAGE WITH 48 HOURS SCORE POST",
-        description: "",
-      },
-    ],
-  },
-  {
-    id: 4,
-    price: "$1,200",
-    name: "Luxary Package",
-    paymentUrl: "https://square.link/u/LXdMsgZQ",
-    benefits: [
-      {
-        title: "1. Profile Attached to Your Name:",
-        description: "A personalized profile is created and attached",
-      },
-      {
-        title: "2. Verified Paystubs:",
-        description: "The package includes two verified paystubs",
-      },
-      {
-        title: "3. Verified Bank Statement:",
-        description: "The package includes two verified banks statement",
-      },
-      {
-        title: "3. Employment and Residential Verification:",
-        description:
-          "The package ensures both employment and residential information are verified for accuracy and credibility",
-      },
-      {
-        title: "4. Tradeline:",
-        description:
-          "Includes one tradeline, which might help build or enhance credit history",
-      },
-      {
-        title: "5. Public Records:",
-        description: "Access to 500 public records",
-      },
-      {
-        title: "6. Digital Novelty SSN:",
-        description: "Offers a digital novelty Social Security Number (SSN)",
-      },
-      {
-        title: "7. Standard Processing Time:",
-        description: "The typical processing time for the profile is 72 hours",
-      },
-      {
-        title: "THIS PACKAGE IS GOOD FOR CAR, CARE CREDIT, LOANS",
-        description: "and more",
-      },
-    ],
-  },
-  {
-    id: 1,
-    price: "$1,500",
-    name: "Luxary Aditional",
-    paymentUrl: "https://square.link/u/QJi8fu8l",
-    benefits: [
-      {
-        title: "EXTRA TO LUXARY PACKAGE WITH 48 HOURS SCORE POST",
-        description: "",
-      },
-    ],
-  },
+  // {
+  //   id: 1,
+  //   price: "$950",
+  //   name: "Premium Aditional",
+  //   paymentUrl: "https://square.link/u/1lyaINhM",
+  //   benefits: [
+  //     {
+  //       title: "EXTRA TO PREMIUM PACKAGE WITH 48 HOURS SCORE POST",
+  //       description: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   price: "$1,200",
+  //   name: "Luxary Package",
+  //   paymentUrl: "https://square.link/u/LXdMsgZQ",
+  //   benefits: [
+  //     {
+  //       title: "1. Profile Attached to Your Name:",
+  //       description: "A personalized profile is created and attached",
+  //     },
+  //     // {
+  //     //   title: "2. Verified Paystubs:",
+  //     //   description: "The package includes two verified paystubs",
+  //     // },
+  //     {
+  //       title: "3. Verified Bank Statement:",
+  //       description: "The package includes two verified banks statement",
+  //     },
+  //     {
+  //       title: "3. Employment and Residential Verification:",
+  //       description:
+  //         "The package ensures both employment and residential information are verified for accuracy and credibility",
+  //     },
+  //     {
+  //       title: "4. Tradeline:",
+  //       description:
+  //         "Includes one tradeline, which might help build or enhance credit history",
+  //     },
+  //     {
+  //       title: "5. Public Records:",
+  //       description: "Access to 500 public records",
+  //     },
+  //     {
+  //       title: "6. Digital Novelty SSN:",
+  //       description: "Offers a digital novelty Social Security Number (SSN)",
+  //     },
+  //     {
+  //       title: "7. Standard Processing Time:",
+  //       description: "The typical processing time for the profile is 72 hours",
+  //     },
+  //     {
+  //       title: "THIS PACKAGE IS GOOD FOR CAR, CARE CREDIT, LOANS",
+  //       description: "and more",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 1,
+  //   price: "$1,500",
+  //   name: "Luxary Aditional",
+  //   paymentUrl: "https://square.link/u/QJi8fu8l",
+  //   benefits: [
+  //     {
+  //       title: "EXTRA TO LUXARY PACKAGE WITH 48 HOURS SCORE POST",
+  //       description: "",
+  //     },
+  //   ],
+  // },
 ];
