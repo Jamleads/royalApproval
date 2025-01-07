@@ -180,7 +180,7 @@ function App() {
               data-aos-duration="3000"
               className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
             >
-              <div className="flex flex-col items-center justify-center gap-10 text-center text-whi">
+              <div className="flex flex-col items-center justify-center gap-10 text-center text-white">
                 <div className="flex items-center gap-5">
                   <div className="w-[50px] h-[50px] flex items-center justify-center">
                     <img src={HouseSignal} alt="" className="w-full" />
@@ -205,7 +205,7 @@ function App() {
               data-aos-duration="3000"
               className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
             >
-              <div className="flex flex-col items-center justify-center gap-10 text-center text-whi">
+              <div className="flex flex-col items-center justify-center gap-10 text-center text-white">
                 <div className="flex items-center gap-5">
                   <div className="w-[50px] h-[50px] flex items-center justify-center">
                     <img src={CarSide} alt="" className="w-full" />
@@ -230,7 +230,7 @@ function App() {
               data-aos-duration="3000"
               className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
             >
-              <div className="flex flex-col items-center justify-center gap-10 text-center text-whi">
+              <div className="flex flex-col items-center justify-center gap-10 text-center text-white">
                 <div className="flex items-center gap-5">
                   <div className="w-[50px] h-[50px] flex items-center justify-center">
                     <img src={Warehouse} alt="" className="w-full" />
