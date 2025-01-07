@@ -87,8 +87,10 @@ function App() {
             <div className="text-center">
               <h2 className="md:text-[100px] text-5xl">ROYAL OASIS</h2>
               <p className="md:text-xl text-sm mb-8">
-                we specialize in helping individuals secure approvals for
-                apartments and cars
+                {/* we specialize in helping individuals secure approvals for
+                apartments and cars */}
+                We specializes in helping individuals navigate the process of
+                securing apartments and cars
               </p>
 
               <div className="flex item-center justify-center">
@@ -136,15 +138,16 @@ function App() {
                 className="lg:text-[40px] text-[20px] font-bold text-the_yellow"
                 data-aos="fade-down-right"
               >
-                Royal Oasis specialize in helping individuals secure approvals
-                for apartments and cars.
+                {/* Royal Oasis specialize in helping individuals secure approvals
+                for apartments and cars. */}
+                Royal Oasis specializes in helping individuals navigate the
+                process of securing apartments and cars.
               </h1>
               <p data-aos="fade-down-right">
                 At Royal Oasis, we recognize the difficulties and frustrations
                 involved in securing housing and transportation. Our mission is
-                to ensure a smooth, efficient approval process, providing our
-                clients with reliable support and peace of mind every step of
-                the way.
+                to ensure a smooth, efficient process, providing our clients
+                with reliable support and peace of mind every step of the way.
               </p>
               <div className="mt-10 md:flex gap-2">
                 <a
