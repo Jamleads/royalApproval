@@ -190,7 +190,7 @@ function App() {
                   </div>
 
                   <p className="text-the_yellow text-2xl font-bold">
-                    House Approval
+                    House Package
                   </p>
                 </div>
 
@@ -215,7 +215,7 @@ function App() {
                   </div>
 
                   <p className="text-the_yellow text-2xl font-bold">
-                    Car Approval
+                    Car Package
                   </p>
                 </div>
 
@@ -240,7 +240,7 @@ function App() {
                   </div>
 
                   <p className="text-the_yellow text-2xl font-bold">
-                    Apartment Aprovals
+                    Apartment Package
                   </p>
                 </div>
 
@@ -467,11 +467,6 @@ function App() {
                       </div>
                     </div>
                   </div>
-
-                  <p className="text-center text-sm mt-4">
-                    All packages come with rental and employee verification, all
-                    packages also include 2 snap stubs.
-                  </p>
                 </div>
               </div>
 
@@ -487,9 +482,9 @@ function App() {
                 </div>
 
                 <div className="py-5 px-10">
-                  <h3 className="text-lg text-center font-semibold mb-2">
+                  {/* <h3 className="text-lg text-center font-semibold mb-2">
                     SNAPT STUBS WITH VERIFICATION
-                  </h3>
+                  </h3> */}
 
                   <div className="flex flex-col gap-10 my-10">
                     {/* <div
@@ -563,11 +558,6 @@ function App() {
                       </div>
                     </div>
                   </div>
-
-                  <p className="text-center text-sm mt-4">
-                    All packages come with rental and employee verification, all
-                    packages also include 2 snap stubs.
-                  </p>
                 </div>
               </div>
             </div>
