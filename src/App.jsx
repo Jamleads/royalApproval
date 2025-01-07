@@ -20,23 +20,26 @@ function App() {
         <header className="bg-white shadow">
           <div className="flex justify-between items-center md:w-[80%] w-[90%] mx-auto">
             <div className="flex items-center gap-5">
-              <div className="w-[80px] h-[80px] flex items-center justify-center">
-                <img src="/logo.jpg" alt="" />
+              <div className="w-[150px] h-[80px] flex items-center justify-center">
+                <img src="/logo_white.jpg" alt="" />
               </div>
-              <h1 className="text-2xl leading-10">Royal Oasis</h1>
+              {/* <h1 className="text-2xl leading-10">Royal Oasis</h1> */}
             </div>
 
             <nav>
               <ul className="md:flex hidden items-center gap-16">
                 <li>
-                  <a href="#" className="text-gray-600 hover:text-gray-800">
+                  <a
+                    href="#"
+                    className="text-[#1C76BC] font-semibold hover:text-gray-800"
+                  >
                     Home
                   </a>
                 </li>
                 <li>
                   <a
                     href="#about"
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-[#1C76BC] font-semibold hover:text-gray-800"
                   >
                     About
                   </a>
@@ -44,7 +47,7 @@ function App() {
                 <li>
                   <a
                     href="#services"
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-[#1C76BC] font-semibold hover:text-gray-800"
                   >
                     Services
                   </a>
@@ -52,7 +55,7 @@ function App() {
                 <li>
                   <a
                     href="#pricing"
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-[#1C76BC] font-semibold hover:text-gray-800"
                   >
                     Pricing
                   </a>
@@ -60,7 +63,7 @@ function App() {
                 <li>
                   <a
                     href="#testimones"
-                    className="text-gray-600 hover:text-gray-800"
+                    className="text-[#1C76BC] font-semibold hover:text-gray-800"
                   >
                     Testimonies
                   </a>
@@ -100,7 +103,7 @@ function App() {
                   <a
                     target="_blank"
                     href="mailto:contact@royalapprovals.com"
-                    className="bg-[#c4bc28] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                    className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
                   >
                     <i className="fa-regular fa-envelope-open"></i> Send An
                     Email
@@ -143,7 +146,7 @@ function App() {
                 clients with reliable support and peace of mind every step of
                 the way.
               </p>
-              <div className="mt-10">
+              <div className="mt-10 md:flex gap-2">
                 <a
                   // href="tel:+17328544951"
                   href="tel:+14105981300"
@@ -156,7 +159,7 @@ function App() {
                 <a
                   target="_blank"
                   href="mailto:contact@royalapprovals.com"
-                  className="bg-[#c4bc28] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                  className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
                   data-aos="fade-down-right"
                 >
                   <i className="fa-regular fa-envelope-open"></i> Send An Email
@@ -177,7 +180,7 @@ function App() {
               data-aos-duration="3000"
               className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
             >
-              <div className="flex flex-col items-center justify-center gap-10 text-center">
+              <div className="flex flex-col items-center justify-center gap-10 text-center text-whi">
                 <div className="flex items-center gap-5">
                   <div className="w-[50px] h-[50px] flex items-center justify-center">
                     <img src={HouseSignal} alt="" className="w-full" />
@@ -202,7 +205,7 @@ function App() {
               data-aos-duration="3000"
               className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
             >
-              <div className="flex flex-col items-center justify-center gap-10 text-center">
+              <div className="flex flex-col items-center justify-center gap-10 text-center text-whi">
                 <div className="flex items-center gap-5">
                   <div className="w-[50px] h-[50px] flex items-center justify-center">
                     <img src={CarSide} alt="" className="w-full" />
@@ -227,7 +230,7 @@ function App() {
               data-aos-duration="3000"
               className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
             >
-              <div className="flex flex-col items-center justify-center gap-10 text-center">
+              <div className="flex flex-col items-center justify-center gap-10 text-center text-whi">
                 <div className="flex items-center gap-5">
                   <div className="w-[50px] h-[50px] flex items-center justify-center">
                     <img src={Warehouse} alt="" className="w-full" />
@@ -317,7 +320,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$45</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Light Bill
                       </div>
                     </div>
@@ -329,7 +332,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$45</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Doctor Note
                       </div>
                     </div>
@@ -340,7 +343,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$75</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Lease Agreement
                       </div>
                     </div>
@@ -351,7 +354,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$85</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Car Insurance
                       </div>
                     </div>
@@ -363,7 +366,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$50</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Any PDF Doc
                       </div>
                     </div>
@@ -375,7 +378,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$270</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         GED/HS Diploma
                       </div>
                     </div>
@@ -387,7 +390,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$95</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Digital Id
                       </div>
                     </div>
@@ -398,7 +401,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$380</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Physical Id Overnight Shipping
                       </div>
                     </div>
@@ -409,7 +412,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$150</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Digital SSC
                       </div>
                     </div>
@@ -420,7 +423,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$365</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Physical SSC Overnight Shipping
                       </div>
                     </div>
@@ -432,7 +435,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$250/$200</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         ID/SSC
                       </div>
                     </div>
@@ -444,7 +447,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$75 Each</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Bank Statement
                       </div>
                     </div>
@@ -456,7 +459,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$65</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Regular Pay Stub
                       </div>
                     </div>
@@ -493,7 +496,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$85 Each</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Snap Stubs with Verification
                       </div>
                     </div> */}
@@ -505,7 +508,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$75</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Novo Verification
                       </div>
                     </div>
@@ -517,7 +520,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$75</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Do Your App
                       </div>
                     </div>
@@ -529,7 +532,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$85</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Offer Letter
                       </div>
                     </div>
@@ -540,7 +543,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$105</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Offer Letter With Verification
                       </div>
                     </div>
@@ -552,7 +555,7 @@ function App() {
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$85</p>
                       </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base">
+                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Employee or Rental Verification
                       </div>
                     </div>
@@ -609,7 +612,7 @@ function App() {
                     work with you until approved.
                   </p>
 
-                  <div className="mt-10">
+                  <div className="mt-10 md:flex gap-2">
                     <a
                       href="tel:+14105981300"
                       target="_blank"
@@ -620,7 +623,7 @@ function App() {
                     <a
                       target="_blank"
                       href="mailto:contact@royalapprovals.com"
-                      className="bg-[#c4bc28] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                      className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
                     >
                       <i className="fa-regular fa-envelope-open"></i> Send An
                       Email

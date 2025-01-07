@@ -5,10 +5,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        theGold: "#FFD700",
-        the_gray: "#F2F5F5",
-        thePurple: "#6A0DAD",
-        theDarkGold: "#B8860B",
+        // the_gray: "#F2F5F5",
+        the_gray: "#595A5C",
+        // theDarkGold: "#B8860B",
+        theDarkGold: "#2876BC",
       },
     },
   },
