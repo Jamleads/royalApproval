@@ -87,8 +87,6 @@ function App() {
             <div className="text-center">
               <h2 className="md:text-[100px] text-5xl">ROYAL OASIS</h2>
               <p className="md:text-xl text-sm mb-8">
-                {/* we specialize in helping individuals secure approvals for
-                apartments and cars */}
                 We specializes in helping individuals navigate the process of
                 securing apartments and cars
               </p>
@@ -138,8 +136,6 @@ function App() {
                 className="lg:text-[40px] text-[20px] font-bold text-the_yellow"
                 data-aos="fade-down-right"
               >
-                {/* Royal Oasis specialize in helping individuals secure approvals
-                for apartments and cars. */}
                 Royal Oasis specializes in helping individuals navigate the
                 process of securing apartments and cars.
               </h1>
@@ -151,7 +147,6 @@ function App() {
               </p>
               <div className="mt-10 md:flex gap-2">
                 <a
-                  // href="tel:+17328544951"
                   href="tel:+14105981300"
                   target="_blank"
                   className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
@@ -265,7 +260,7 @@ function App() {
                     <p className="text-3xl">{pkg.name}</p>
                     <p className="text-5xl font-bold">{pkg.price}</p>
                   </div>
-                  <div className="bg-white md:w-[85%] w-[90%] md:pl-10 mx-auto py-10 px-5 rounded-2xl -mt-10">
+                  <div className="bg-white md:w-[85%] w-[90%] md:pl-5 mx-auto py-10 px-5 rounded-2xl -mt-10">
                     <ul className="flex flex-col gap-5">
                       {pkg.benefits.map((benefit, idx) => (
                         <li key={idx}>
@@ -275,13 +270,24 @@ function App() {
                       ))}
                     </ul>
 
-                    <div>
-                      <button
-                        onClick={() => toPayment(pkg.paymentUrl)}
-                        className="mt-10 border-theDarkGold border-2 bg-transparent text-theDarkGold font-bold py-3 px-6 rounded-xl hover:bg-theDarkGold hover:text-white"
+                    <div className="mt-10 flex flex-col gap-3">
+                      <a
+                        href="tel:+14105981300"
+                        target="_blank"
+                        className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
+                        data-aos="fade-down-right"
                       >
-                        Place Order
-                      </button>
+                        <i className="fa-solid fa-phone-volume"></i> Send A Call
+                      </a>
+                      <a
+                        target="_blank"
+                        href="mailto:contact@royalapprovals.com"
+                        className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                        data-aos="fade-down-right"
+                      >
+                        <i className="fa-regular fa-envelope-open"></i> Send An
+                        Email
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -482,23 +488,7 @@ function App() {
                 </div>
 
                 <div className="py-5 px-10">
-                  {/* <h3 className="text-lg text-center font-semibold mb-2">
-                    SNAPT STUBS WITH VERIFICATION
-                  </h3> */}
-
                   <div className="flex flex-col gap-10 my-10">
-                    {/* <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
-                      data-aos="fade-down-right"
-                    >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$85 Each</p>
-                      </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
-                        Snap Stubs with Verification
-                      </div>
-                    </div> */}
-
                     <div
                       className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
                       data-aos="fade-down-right"
@@ -604,6 +594,17 @@ function App() {
                     purchasing of another package is not necessary and we will
                     work with you until approved.
                   </p>
+                  <div className="mt3">
+                    To purchase a package, please contact{" "}
+                    <a
+                      href="tel:+14105981300"
+                      target="_blank"
+                      className="text-theDarkGold cursor-pointer"
+                    >
+                      404-951-6649
+                    </a>{" "}
+                    for any help
+                  </div>
 
                   <div className="mt-10 md:flex gap-2">
                     <a
