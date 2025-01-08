@@ -442,18 +442,6 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$250/$200</p>
-                      </div>
-                      <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
-                        ID/SSC
-                      </div>
-                    </div>
-
-                    <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
-                      data-aos="fade-down-right"
-                    >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$75 Each</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -506,7 +494,7 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$75</p>
+                        <p className="text-xl">$85</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Do Your App
