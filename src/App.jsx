@@ -98,7 +98,7 @@ function App() {
                     target="_blank"
                     className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                   >
-                    <i className="fa-solid fa-phone-volume"></i> Send A Call
+                    <i className="fa-solid fa-phone-volume"></i> Send A Message
                   </a>
                   <a
                     target="_blank"
@@ -152,7 +152,7 @@ function App() {
                   className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                   data-aos="fade-down-right"
                 >
-                  <i className="fa-solid fa-phone-volume"></i> Send A Call
+                  <i className="fa-solid fa-phone-volume"></i> Send A Message
                 </a>
                 <a
                   target="_blank"
@@ -277,7 +277,8 @@ function App() {
                         className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                         data-aos="fade-down-right"
                       >
-                        <i className="fa-solid fa-phone-volume"></i> Send A Call
+                        <i className="fa-solid fa-phone-volume"></i> Send A
+                        Message
                       </a>
                       <a
                         target="_blank"
@@ -612,7 +613,8 @@ function App() {
                       target="_blank"
                       className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                     >
-                      <i className="fa-solid fa-phone-volume"></i> Send A Call
+                      <i className="fa-solid fa-phone-volume"></i> Send A
+                      Message
                     </a>
                     <a
                       target="_blank"
