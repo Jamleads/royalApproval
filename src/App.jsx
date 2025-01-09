@@ -189,12 +189,26 @@ function App() {
                   </p>
                 </div>
 
-                <p className="text_text">
-                  We simplify the house approval process, guiding you every step
-                  of the way. Our expert team ensures you overcome any hurdles
-                  quickly and efficiently, turning your dream of homeownership
-                  into a reality.
-                </p>
+                <div>
+                  <p className="text_text">
+                    We simplify the house approval process, guiding you every
+                    step of the way. Our expert team ensures you overcome any
+                    hurdles quickly and efficiently, turning your dream of
+                    homeownership into a reality.
+                  </p>
+
+                  <div className="mt-3 font-bold">
+                    Payments plans available <br /> text{" "}
+                    <a
+                      href="tel:+14105981300"
+                      target="_blank"
+                      className="text-red-300 cursor-pointer"
+                    >
+                      404-951-6649
+                    </a>{" "}
+                    to inquire about getting started
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -214,12 +228,26 @@ function App() {
                   </p>
                 </div>
 
-                <p className="text_text">
-                  Whether you're buying your first car or upgrading, we
-                  streamline the car approval process. With our tailored
-                  approach and industry expertise, we help you secure the
-                  vehicle you need without the stress
-                </p>
+                <div>
+                  <p className="text_text">
+                    Whether you're buying your first car or upgrading, we
+                    streamline the car approval process. With our tailored
+                    approach and industry expertise, we help you secure the
+                    vehicle you need without the stress
+                  </p>
+
+                  <div className="mt-3 font-bold">
+                    Payments plans available <br /> text{" "}
+                    <a
+                      href="tel:+14105981300"
+                      target="_blank"
+                      className="text-red-300 cursor-pointer"
+                    >
+                      404-951-6649
+                    </a>{" "}
+                    to inquire about getting started
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -239,11 +267,47 @@ function App() {
                   </p>
                 </div>
 
+                <div>
+                  <p className="text_text">
+                    Experience the convenience of securing apartment approvals
+                    through our comprehensive service. We coordinate both
+                    processes seamlessly, saving you time and effort while
+                    delivering exceptional results.
+                  </p>
+
+                  <div className="mt-3 font-bold">
+                    Payments plans available <br /> text{" "}
+                    <a
+                      href="tel:+14105981300"
+                      target="_blank"
+                      className="text-red-300 cursor-pointer"
+                    >
+                      404-951-6649
+                    </a>{" "}
+                    to inquire about getting started
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
+            >
+              <div className="flex flex-col items-center justify-center gap-10 text-center text-white">
+                <div className="flex items-center gap-5">
+                  <div className="w-[50px] h-[50px] flex items-center justify-center">
+                    <img src={Warehouse} alt="" className="w-full" />
+                  </div>
+
+                  <p className="text-the_yellow text-2xl font-bold">
+                    Rush order available
+                  </p>
+                </div>
+
                 <p className="text_text">
-                  Experience the convenience of securing apartment approvals
-                  through our comprehensive service. We coordinate both
-                  processes seamlessly, saving you time and effort while
-                  delivering exceptional results.
+                  $200 Profile will be sent to you in 24 business hours
                 </p>
               </div>
             </div>
@@ -269,7 +333,17 @@ function App() {
                         </li>
                       ))}
                     </ul>
-
+                    <div className="mt-3">
+                      Payments plans available text{" "}
+                      <a
+                        href="tel:+14105981300"
+                        target="_blank"
+                        className="text-theDarkGold cursor-pointer"
+                      >
+                        404-951-6649
+                      </a>{" "}
+                      to inquire about getting started
+                    </div>
                     <div className="mt-10 flex flex-col gap-3">
                       <a
                         href="tel:+14105981300"
@@ -292,8 +366,6 @@ function App() {
                   </div>
                 </div>
               ))}
-
-              <div></div>
             </div>
           </div>
         </section>

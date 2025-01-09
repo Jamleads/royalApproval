@@ -269,7 +269,7 @@ export const packages = [
   {
     id: 3,
     price: "$850",
-    name: "Premium Package",
+    name: "House Package",
     paymentUrl: "https://square.link/u/sIaXfc7G",
     benefits: [
       {
