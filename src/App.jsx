@@ -94,7 +94,7 @@ function App() {
               <div className="flex item-center justify-center">
                 <div className="md:flex gap-5">
                   <a
-                    href="tel:+14105981300"
+                    href="tel:+14049516649"
                     target="_blank"
                     className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                   >
@@ -147,7 +147,7 @@ function App() {
               </p>
               <div className="mt-10 md:flex gap-2">
                 <a
-                  href="tel:+14105981300"
+                  href="tel:+14049516649"
                   target="_blank"
                   className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                   data-aos="fade-down-right"
@@ -200,7 +200,7 @@ function App() {
                   <div className="mt-3 font-bold">
                     Payments plans available <br /> text{" "}
                     <a
-                      href="tel:+14105981300"
+                      href="tel:+14049516649"
                       target="_blank"
                       className="text-red-300 cursor-pointer"
                     >
@@ -239,7 +239,7 @@ function App() {
                   <div className="mt-3 font-bold">
                     Payments plans available <br /> text{" "}
                     <a
-                      href="tel:+14105981300"
+                      href="tel:+14049516649"
                       target="_blank"
                       className="text-red-300 cursor-pointer"
                     >
@@ -278,7 +278,7 @@ function App() {
                   <div className="mt-3 font-bold">
                     Payments plans available <br /> text{" "}
                     <a
-                      href="tel:+14105981300"
+                      href="tel:+14049516649"
                       target="_blank"
                       className="text-red-300 cursor-pointer"
                     >
@@ -336,7 +336,7 @@ function App() {
                     <div className="mt-3">
                       Payments plans available text{" "}
                       <a
-                        href="tel:+14105981300"
+                        href="tel:+14049516649"
                         target="_blank"
                         className="text-theDarkGold cursor-pointer"
                       >
@@ -346,7 +346,7 @@ function App() {
                     </div>
                     <div className="mt-10 flex flex-col gap-3">
                       <a
-                        href="tel:+14105981300"
+                        href="tel:+14049516649"
                         target="_blank"
                         className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                         data-aos="fade-down-right"
@@ -657,7 +657,7 @@ function App() {
                   <div className="mt3">
                     To purchase a package, please contact{" "}
                     <a
-                      href="tel:+14105981300"
+                      href="tel:+14049516649"
                       target="_blank"
                       className="text-theDarkGold cursor-pointer"
                     >
@@ -668,7 +668,7 @@ function App() {
 
                   <div className="mt-10 md:flex gap-2">
                     <a
-                      href="tel:+14105981300"
+                      href="tel:+14049516649"
                       target="_blank"
                       className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
                     >
