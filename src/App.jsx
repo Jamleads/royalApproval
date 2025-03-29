@@ -3,7 +3,7 @@ import { CarSide, Housekey, HouseSignal, Warehouse } from "./assets";
 import { packages, reveiews } from "./utils/data";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCards } from "swiper/modules";
+import { EffectCards, Pagination } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -168,12 +168,12 @@ function App() {
         </section>
 
         {/* <!-- Services Section --> */}
-        <section id="services" className="md:my-40 md:pt-40">
+        <section id="services" className="md:my-40">
           <div className="text-center underline py-2 lg:my-20 text-theDarkGold lg:text-[100px] text-[50px]">
-            Our Services
+            Extra Benefits
           </div>
           <div className="lg:w-[80%] lg:px-0 px-5 mx-auto lg:grid grid-cols-3 flex flex-col gap-10">
-            <div
+            {/* <div
               data-aos="fade-up"
               data-aos-duration="3000"
               className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
@@ -288,7 +288,7 @@ function App() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>  */}
 
             <div
               data-aos="fade-up"
@@ -311,6 +311,30 @@ function App() {
                 </p>
               </div>
             </div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
+            >
+              <div className="flex flex-col items-center justify-center gap-10 text-center text-white">
+                <div className="flex items-center gap-5">
+                  <div className="w-[50px] h-[50px] flex items-center justify-center">
+                    <img src={Warehouse} alt="" className="w-full" />
+                  </div>
+
+                  <p className="text-the_yellow text-2xl font-bold">
+                    Payment plan description
+                  </p>
+                </div>
+
+                <p className="text_text">
+                  Hey love 💝 payment plan goes as follows You pay half up front
+                  for me to start the process and I don’t finish the process
+                  until paid in full There is also a payment plan fee of $50
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -325,6 +349,11 @@ function App() {
                     <p className="text-5xl font-bold">{pkg.price}</p>
                   </div>
                   <div className="bg-white md:w-[85%] w-[90%] md:pl-5 mx-auto py-10 px-5 rounded-2xl -mt-10">
+                    {pkg?.subhead && (
+                      <div className="my-3 text-xs font-bold">
+                        {pkg.subhead}
+                      </div>
+                    )}
                     <ul className="flex flex-col gap-5">
                       {pkg.benefits.map((benefit, idx) => (
                         <li key={idx}>
@@ -333,8 +362,12 @@ function App() {
                         </li>
                       ))}
                     </ul>
+                    {pkg?.action && (
+                      <div className="mt-3 text-xs font-bold">{pkg.action}</div>
+                    )}
                     <div className="mt-3">
-                      Payments plans available text{" "}
+                      Payment plans are available. To inquire or get started,
+                      text{" "}
                       <a
                         href="tel:+14049516649"
                         target="_blank"
@@ -342,7 +375,6 @@ function App() {
                       >
                         404-951-6649
                       </a>{" "}
-                      to inquire about getting started
                     </div>
                     <div className="mt-10 flex flex-col gap-3">
                       <a
@@ -370,8 +402,77 @@ function App() {
           </div>
         </section>
 
+        <section>
+          <div className="md:w-[80%] w-[90%] mx-auto mt-16">
+            <div className="">
+              <div>
+                <div className="underline py-2 text-theDarkGold lg:text-[50px] text-[25px]">
+                  Payment Plan, Rush Orders & Processing Time
+                </div>
+                <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
+                  Payment Plan Details
+                </h1>
+                <p>
+                  To begin the process, a 50% deposit is required upfront. The
+                  remaining balance will be due before the project is completed.
+                  Please note that a $50 payment plan fee will be added to the
+                  total cost. This ensures that we can proceed smoothly while
+                  maintaining flexibility for both parties.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-4 mt-5">
+                <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
+                  Rush Orders & Processing Time
+                </h1>
+                <p>
+                  We understand that time is of the essence, and we offer
+                  flexible processing options to meet your needs: <br /> <br />
+                  Standard Processing Time: Our typical processing time is 72
+                  business hours (excluding weekends), allowing us to thoroughly
+                  process your order with care. Rush Processing: Need it faster?
+                  For a $250 rush processing fee, your order will be completed
+                  within 24-48 business hours. This expedited option ensures you
+                  get your documents in a fraction of the usual time. Whether
+                  you choose standard or rush processing, we're dedicated to
+                  delivering prompt and efficient service.
+                </p>
+                <div className="mt3">
+                  To purchase a package, please contact{" "}
+                  <a
+                    href="tel:+14049516649"
+                    target="_blank"
+                    className="text-theDarkGold cursor-pointer"
+                  >
+                    404-951-6649
+                  </a>{" "}
+                  for any help
+                </div>
+
+                <div className="mt-10 md:flex gap-2">
+                  <a
+                    href="tel:+14049516649"
+                    target="_blank"
+                    className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
+                  >
+                    <i className="fa-solid fa-phone-volume"></i> Send A Text
+                  </a>
+                  <a
+                    target="_blank"
+                    href="mailto:contact@royalapprovals.com"
+                    className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                  >
+                    <i className="fa-regular fa-envelope-open"></i> Send An
+                    Email
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* <!-- Pricing --> */}
-        <section id="pricing" className="md:my-40 md:pt-40 mt-20">
+        <section id="pricing" className="md:my-20 mt-20">
           <div className="md:w-[80%] w-[90%] mx-auto">
             <div className="text-center underline py-2 lg:my-20 text-theDarkGold lg:text-[100px] text-[50px]">
               Our Price List
@@ -615,11 +716,70 @@ function App() {
         </section>
 
         {/* <!-- testimones --> */}
-        <section id="testimones" className="md:my-40 md:pt-40 mt-20">
+
+        <div className="md:w-[80%] w-[90%] mx-auto ">
+          <div className="flex flex-col items-center justify-center mb-3">
+            <p className="underline py-2 text-theDarkGold lg:text-[100px] text-[50px]">
+              Testimonials
+            </p>
+            <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
+              Hear What Our Customers Say About Us
+            </h1>
+            <p className=" text-center">
+              At Royal Oasis, we pride ourselves on putting smiles on the faces
+              of countless individuals by helping them secure approvals for
+              their dream homes and cars. Our clients consistently express their
+              gratitude for our efficient, supportive, and seamless approval
+              process. We understand the emotional and financial significance of
+              owning a home or car, and we are dedicated to making these dreams
+              a reality. Read below to see the heartfelt stories of how we've
+              transformed lives and provided peace of mind through our
+              exceptional services.
+            </p>
+          </div>
+          <div className="border-2 border-theDarkGold pt-5">
+            <div className="text-center mb-10">
+              <p className="text-3xl">See what our customers says about us</p>
+              <p className="">Drag left or right to see more</p>
+            </div>
+            <div className="swiper md:h-auto sm:h-[800px] md:overflow-x-auto overflow-x-hidden">
+              <Swiper
+                slidesPerView={4}
+                centeredSlides={true}
+                spaceBetween={30}
+                grabCursor={true}
+                pagination={{
+                  clickable: true,
+                }}
+                breakpoints={{
+                  640: {
+                    // For screens larger than 640px
+                    slidesPerView: 4,
+                  },
+                  0: {
+                    // For smaller screens (mobile)
+                    slidesPerView: 1,
+                  },
+                }}
+                initialSlide={2}
+                modules={[Pagination]}
+                className="mySwiper"
+              >
+                {reveiews.map((item, idx) => (
+                  <SwiperSlide key={idx} className="swiper-slide">
+                    <img src={item.image} alt="" />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+          </div>
+        </div>
+
+        <section id="testimones" className="md:mb-40 mt-10">
           <div className="md:w-[80%] w-[90%] mx-auto">
             <div className="flex gap-10 md:flex-row flex-col">
-              <div className="lg:w-1/2">
-                <div>
+              <div className="">
+                {/* <div>
                   <div className="underline py-2 text-theDarkGold lg:text-[100px] text-[50px]">
                     Testimonials
                   </div>
@@ -638,12 +798,15 @@ function App() {
                     transformed lives and provided peace of mind through our
                     exceptional services.
                   </p>
-                </div>
+                </div> */}
 
-                <div className="flex flex-col gap-4 mt-5">
-                  <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
+                <div className="flex flex-col gap-4">
+                  <div className="underline py-2 text-theDarkGold lg:text-[100px] text-[50px]">
                     Disclaimer
-                  </h1>
+                  </div>
+                  {/* <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
+                  Disclaimer
+                  </h1> */}
                   <p>
                     All clients are responsible for any fees outside of the
                     package that may or may not be limited to Application &
@@ -654,6 +817,31 @@ function App() {
                     purchasing of another package is not necessary and we will
                     work with you until approved.
                   </p>
+
+                  <div className="">
+                    <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
+                      Refund Policy
+                    </h1>
+                    <p>
+                      We strive to provide high-quality services and ensure
+                      customer satisfaction. However, due to the nature of our
+                      services, refunds are not available once work has begun or
+                      documents have been processed.
+                    </p>
+                  </div>
+                  <div className="">
+                    <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
+                      Refund Conditions:
+                    </h1>
+                    <p>
+                      No Refunds: Once work has started or documents have been
+                      processed, refunds are not available as these services are
+                      customized and cannot be reused or resold. If you have any
+                      concerns or issues with your order, please contact us
+                      immediately, and we will do our best to resolve them.
+                    </p>
+                  </div>
+
                   <div className="mt3">
                     To purchase a package, please contact{" "}
                     <a
@@ -686,7 +874,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="lg:w-1/2 border-2 border-theDarkGold pt-5">
+              {/* <div className="lg:w-1/2 border-2 border-theDarkGold pt-5">
                 <div className="text-center mb-10">
                   <p className="text-3xl">
                     See what our customers says about us
@@ -708,32 +896,24 @@ function App() {
                     ))}
                   </Swiper>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
 
         {/* <!-- Footer Section --> */}
-        <footer className="bg-theDarkGold text-white py-6 flex items-center justify-center">
+        <footer className="bg-theDarkGold text-white py-6 flex items-center justify-center mt-20">
           <div>
             <p className="text-center">
-              Project outsourced to
+              Project managed by{" "}
               <a
-                href="https://jamleads.netlify.app/"
+                href="https://jamleads.framer.website/"
                 className="text-lg font-bold text-black underline"
                 target="_blank"
               >
-                Jamleads
-              </a>
-              and Managed by
-              <a
-                href="https://icontinenttech.com/"
-                className="text-lg font-bold text-black underline"
-                target="_blank"
-              >
-                iContinent
-              </a>
-              Solution Ltd &copy; 2024. All right reserved
+                Jamleads IT Management
+              </a>{" "}
+              &copy; 2024. All right reserved
             </p>
           </div>
         </footer>

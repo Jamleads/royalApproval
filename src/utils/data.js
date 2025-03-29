@@ -32,135 +32,263 @@ import {
   Cutomer31,
   Cutomer32,
   Cutomer33,
+  Cutomer_1,
+  Cutomer_2,
+  Cutomer_3,
+  Cutomer_4,
+  Cutomer_5,
+  Cutomer_6,
+  Cutomer_7,
+  Cutomer_8,
+  Cutomer_9,
+  Cutomer_10,
+  Cutomer_11,
+  Cutomer_12,
+  Cutomer_13,
+  Cutomer_14,
+  Cutomer_15,
+  Cutomer_16,
+  Cutomer_17,
+  Cutomer_18,
+  Cutomer_40,
+  Cutomer_39,
+  Cutomer_38,
+  Cutomer_37,
+  Cutomer_36,
+  Cutomer_35,
+  Cutomer_34,
+  Cutomer_33,
+  Cutomer_32,
+  Cutomer_31,
+  Cutomer_30,
+  Cutomer_29,
+  Cutomer_28,
+  Cutomer_27,
+  Cutomer_26,
+  Cutomer_25,
+  Cutomer_24,
+  Cutomer_23,
+  Cutomer_22,
+  Cutomer_21,
+  Cutomer_20,
+  Cutomer_19,
 } from "../assets";
 
 export const reveiews = [
   {
-    id: 1,
+    image: Cutomer_1,
+  },
+  {
+    image: Cutomer_2,
+  },
+  {
+    image: Cutomer_4,
+  },
+  {
+    image: Cutomer_5,
+  },
+  {
+    image: Cutomer_6,
+  },
+  {
+    image: Cutomer_7,
+  },
+  {
+    image: Cutomer_8,
+  },
+  {
+    image: Cutomer_9,
+  },
+  {
+    image: Cutomer_3,
+  },
+  {
+    image: Cutomer_10,
+  },
+  {
+    image: Cutomer_11,
+  },
+  {
+    image: Cutomer_12,
+  },
+  {
+    image: Cutomer_13,
+  },
+  {
+    image: Cutomer_14,
+  },
+  {
+    image: Cutomer_15,
+  },
+  {
+    image: Cutomer_16,
+  },
+  {
+    image: Cutomer_17,
+  },
+  {
+    image: Cutomer_18,
+  },
+  {
+    image: Cutomer_19,
+  },
+  {
+    image: Cutomer_20,
+  },
+  {
+    image: Cutomer_21,
+  },
+  {
+    image: Cutomer_22,
+  },
+  {
+    image: Cutomer_23,
+  },
+  {
+    image: Cutomer_24,
+  },
+  {
+    image: Cutomer_25,
+  },
+  {
+    image: Cutomer_26,
+  },
+  {
+    image: Cutomer_27,
+  },
+  {
+    image: Cutomer_28,
+  },
+  {
+    image: Cutomer_29,
+  },
+  {
+    image: Cutomer_30,
+  },
+  {
+    image: Cutomer_31,
+  },
+  {
+    image: Cutomer_32,
+  },
+  {
+    image: Cutomer_33,
+  },
+  {
+    image: Cutomer_34,
+  },
+  {
+    image: Cutomer_35,
+  },
+  {
+    image: Cutomer_36,
+  },
+  {
+    image: Cutomer_37,
+  },
+  {
+    image: Cutomer_38,
+  },
+  {
+    image: Cutomer_39,
+  },
+  {
+    image: Cutomer_40,
+  },
+  {
     image: Cutomer2,
   },
   {
-    id: 2,
     image: Cutomer1,
   },
   {
-    id: 3,
     image: Cutomer3,
   },
   {
-    id: 4,
     image: Cutomer4,
   },
   {
-    id: 5,
     image: Cutomer5,
   },
   {
-    id: 6,
     image: Cutomer6,
   },
   {
-    id: 7,
     image: Cutomer7,
   },
   {
-    id: 8,
     image: Cutomer8,
   },
   {
-    id: 9,
     image: Cutomer9,
   },
   {
-    id: 10,
     image: Cutomer10,
   },
   {
-    id: 11,
     image: Cutomer11,
   },
   {
-    id: 12,
     image: Cutomer12,
   },
   {
-    id: 13,
     image: Cutomer13,
   },
   {
-    id: 14,
     image: Cutomer14,
   },
   {
-    id: 15,
     image: Cutomer15,
   },
   {
-    id: 16,
     image: Cutomer16,
   },
   {
-    id: 17,
     image: Cutomer17,
   },
   {
-    id: 18,
     image: Cutomer18,
   },
   {
-    id: 19,
     image: Cutomer19,
   },
   {
-    id: 20,
     image: Cutomer20,
   },
   {
-    id: 21,
     image: Cutomer21,
   },
   {
-    id: 22,
     image: Cutomer22,
   },
   {
-    id: 23,
     image: Cutomer23,
   },
   {
-    id: 24,
     image: Cutomer24,
   },
   {
-    id: 25,
     image: Cutomer25,
   },
   {
-    id: 26,
     image: Cutomer26,
   },
   {
-    id: 27,
     image: Cutomer27,
   },
   {
-    id: 28,
     image: Cutomer28,
   },
   {
-    id: 29,
     image: Cutomer29,
   },
   {
-    id: 30,
     image: Cutomer30,
   },
   {
-    id: 31,
     image: Cutomer31,
   },
   {
-    id: 32,
     image: Cutomer32,
   },
   {
@@ -177,41 +305,32 @@ export const packages = [
     paymentUrl: "https://square.link/u/lafMkYN3",
     benefits: [
       {
-        title: "1. Profile Number Assigned:",
-        description: "A unique profile number is attached",
-      },
-      // {
-      //   title: "2. Verified Paystubs:",
-      //   description: "The package includes two verified paystubs",
-      // },
-      {
-        title: "2. Employment and Residential Verification:",
+        title: "1. Personalized Profile:",
         description:
-          "Verification of both employment and residential information is included, ensuring that all necessary details are accurate and valid",
+          "A profile in your name, tailored for your unique situation.",
       },
       {
-        title: "3. Self-Apply Package:",
-        description: "This is marketed as a self-application package",
+        title: "2. Offer Letter:",
+        description: "1 official offer letter to strengthen your application.",
       },
       {
-        title: "4. Standard Processing Time:",
+        title: "3. Employment & Residential Verification:",
         description:
-          "Without the expedited option, the profile will be completed in 72 hours",
+          "Verification of both employment and residential details, ensuring accuracy and validity.",
+      },
+      {
+        title: "4. Self-Apply Package:",
+        description:
+          "A streamlined self-application package, perfect for those who prefer to manage their process independently.",
+      },
+      {
+        title: "5. Standard Processing Time",
+        description:
+          "The profile will be completed within 72 business hours (excluding weekends).",
       },
     ],
   },
-  // {
-  //   id: 1,
-  //   price: "$650",
-  //   name: "Basic Aditional",
-  //   paymentUrl: "https://square.link/u/h5li11Vf",
-  //   benefits: [
-  //     {
-  //       title: "EXTRA TO BASIC PACKAGE WITH 48 HOURS SCORE POST",
-  //       description: "",
-  //     },
-  //   ],
-  // },
+
   {
     id: 2,
     price: "$780",
@@ -219,53 +338,79 @@ export const packages = [
     paymentUrl: "https://square.link/u/mebYh1ep",
     benefits: [
       {
-        title: "1. Credit score:",
-        description: "650 and above",
-      },
-      {
-        title: "2. Profile Attached to Your Name:",
-        description: "A personalized profile is created and attached",
-      },
-      // {
-      //   title: "2. Verified Paystubs:",
-      //   description: "The package includes two verified paystubs",
-      // },
-      {
-        title: "3. Employment and Residential Verification:",
+        title: "1.	Profile Attached to Your Name:",
         description:
-          "The package ensures both employment and residential information are verified for accuracy and credibility",
+          "A tailored profile created specifically in your name to enhance your application.",
+      },
+      {
+        title: "2. Offer Letter:",
+        description: "1 official offer letter to help support your process.",
+      },
+      {
+        title: "3. Employment & Residential Verification:",
+        description:
+          "Ensures both employment and residential information are verified for credibility and accuracy.",
       },
       {
         title: "4. Tradeline:",
         description:
-          "Includes one tradeline, which might help build or enhance credit history",
+          "Includes one tradeline to help build or improve your credit history.",
       },
       {
-        title: "5. Public Records:",
-        description: "Access to 200 public records",
-      },
-      // {
-      //   title: "6. Digital Novelty SSN:",
-      //   description: "Offers a digital novelty Social Security Number (SSN)",
-      // },
-      {
-        title: "6. Standard Processing Time:",
-        description: "The typical processing time for the profile is 72 hours",
+        title: "5. Standard Processing Time:",
+        description:
+          "Your profile will be completed in 72 business hours (excluding weekends).",
       },
     ],
   },
-  // {
-  //   id: 1,
-  //   price: "$750",
-  //   name: "Deluxe Aditional",
-  //   paymentUrl: "https://square.link/u/pW0yhV6h",
-  //   benefits: [
-  //     {
-  //       title: "EXTRA TO DELUXE PACKAGE WITH 48 HOURS SCORE POST",
-  //       description: "",
-  //     },
-  //   ],
-  // },
+
+  {
+    id: 3,
+    price: "$1050",
+    name: "Premium Deluxe Package",
+    paymentUrl: "https://square.link/u/pW0yhV6h",
+    subhead:
+      "Unlock more benefits with our Premium Deluxe Package, designed to give you enhanced support and convenience, including a physical novelty SSC. This package includes:",
+    benefits: [
+      {
+        title: "1.	Personalized Profile:",
+        description: "Customized in your name for a seamless experience.",
+      },
+      {
+        title: "2.	Two Novo Verified Stubs (NOVO ONLY):",
+        description:
+          "Verified paystubs plus 1 offer letter to strengthen your application.",
+      },
+      {
+        title: "3.	Physical Novelty SSC:",
+        description:
+          "A physical novelty SSC mailed directly to you for your records.",
+      },
+      {
+        title: "4.	Employment & Rental Verification:",
+        description:
+          "Confirmation of your employment and rental history for added reliability.",
+      },
+      {
+        title: "5.	Trade-Line Score Posting to Experian:",
+        description:
+          "A trade-line posted to Experian to help boost your credit score.",
+      },
+      {
+        title: "6.	Team Application to Your Chosen Apartment:",
+        description:
+          "My team will apply on your behalf to the apartment of your choice, streamlining the process.",
+      },
+      {
+        title: "7.	Standard Processing:",
+        description:
+          "Typically completed in 72 business hours (excluding weekends). Rush Processing is also available for expedited service.",
+      },
+    ],
+    action:
+      "Payment plans are available to fit your budget. This package is ideal for those seeking a physical novelty SSC with added benefits and support throughout the process.",
+  },
+
   {
     id: 3,
     price: "$850",
@@ -273,105 +418,74 @@ export const packages = [
     paymentUrl: "https://square.link/u/sIaXfc7G",
     benefits: [
       {
-        title: "1. Profile Attached to Your Name:",
-        description: "A personalized profile is created and attached",
-      },
-      // {
-      //   title: "2. Verified Paystubs:",
-      //   description: "The package includes two verified paystubs",
-      // },
-      {
-        title: "2. Employment and Residential Verification:",
+        title: "1.	Personalized Profile",
         description:
-          "The package ensures both employment and residential information are verified for accuracy and credibility",
+          "A custom profile created in your name for a tailored experience.",
       },
       {
-        title: "4. Tradeline:",
+        title: "2.	Paystubs & Bank Statement:",
         description:
-          "Includes one tradeline, which might help build or enhance credit history",
+          "Includes two paystubs and 1 bank statement to support your financial verification.",
       },
       {
-        title: "4. Public Records:",
-        description: "Access to 300 public records",
+        title: "3.	Employment & Residential Verification:",
+        description:
+          "Both employment and residential information will be verified to ensure accuracy and credibility.",
       },
-      // {
-      //   title: "6. Digital Novelty SSN:",
-      //   description: "Offers a digital novelty Social Security Number (SSN)",
-      // },
       {
-        title: "5. Standard Processing Time:",
-        description: "The typical processing time for the profile is 72 hours",
+        title: "4.	Tradeline:",
+        description:
+          "Includes one tradeline to help establish or enhance your credit history, giving you a better financial profile.",
+      },
+      {
+        title: "5.	Self-Apply Package:",
+        description:
+          "A self-application package, giving you full control over the process and the ability to apply at your convenience.",
+      },
+      {
+        title: "6.	Standard Processing Time:",
+        description:
+          "The profile will be completed within 72 business hours (excluding weekends), ensuring fast and efficient processing.",
       },
     ],
   },
-  // {
-  //   id: 1,
-  //   price: "$950",
-  //   name: "Premium Aditional",
-  //   paymentUrl: "https://square.link/u/1lyaINhM",
-  //   benefits: [
-  //     {
-  //       title: "EXTRA TO PREMIUM PACKAGE WITH 48 HOURS SCORE POST",
-  //       description: "",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 4,
-  //   price: "$1,200",
-  //   name: "Luxary Package",
-  //   paymentUrl: "https://square.link/u/LXdMsgZQ",
-  //   benefits: [
-  //     {
-  //       title: "1. Profile Attached to Your Name:",
-  //       description: "A personalized profile is created and attached",
-  //     },
-  //     // {
-  //     //   title: "2. Verified Paystubs:",
-  //     //   description: "The package includes two verified paystubs",
-  //     // },
-  //     {
-  //       title: "3. Verified Bank Statement:",
-  //       description: "The package includes two verified banks statement",
-  //     },
-  //     {
-  //       title: "3. Employment and Residential Verification:",
-  //       description:
-  //         "The package ensures both employment and residential information are verified for accuracy and credibility",
-  //     },
-  //     {
-  //       title: "4. Tradeline:",
-  //       description:
-  //         "Includes one tradeline, which might help build or enhance credit history",
-  //     },
-  //     {
-  //       title: "5. Public Records:",
-  //       description: "Access to 500 public records",
-  //     },
-  //     {
-  //       title: "6. Digital Novelty SSN:",
-  //       description: "Offers a digital novelty Social Security Number (SSN)",
-  //     },
-  //     {
-  //       title: "7. Standard Processing Time:",
-  //       description: "The typical processing time for the profile is 72 hours",
-  //     },
-  //     {
-  //       title: "THIS PACKAGE IS GOOD FOR CAR, CARE CREDIT, LOANS",
-  //       description: "and more",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 1,
-  //   price: "$1,500",
-  //   name: "Luxary Aditional",
-  //   paymentUrl: "https://square.link/u/QJi8fu8l",
-  //   benefits: [
-  //     {
-  //       title: "EXTRA TO LUXARY PACKAGE WITH 48 HOURS SCORE POST",
-  //       description: "",
-  //     },
-  //   ],
-  // },
+
+  {
+    id: 1,
+    price: "$1300",
+    name: "Premium House Package",
+    paymentUrl: "https://square.link/u/1lyaINhM",
+    subhead:
+      "Take your credit journey to the next level with our Premium House Package, designed to offer comprehensive support and additional benefits without hidden fees for required documents. This package includes:",
+    benefits: [
+      {
+        title: "1.	Personalized Profile:",
+        description:
+          "Tailored specifically in your name for a seamless experience.",
+      },
+      {
+        title: "2.	Physical Novelty SSC:",
+        description: "A physical novelty SSC will be mailed directly to you.",
+      },
+      {
+        title: "3.	4 Paystubs & 2 Months of Bank Statements:",
+        description: "Essential documents to support your financial profile.",
+      },
+      {
+        title: "4.	Employment & Rental Verification:",
+        description: "Confirmations to ensure credibility and reliability.",
+      },
+      {
+        title: "5.	Self-Apply Package:",
+        description:
+          "A straightforward way for you to manage and apply at your convenience.",
+      },
+      {
+        title: "6.	Trade-line Posting from Experian:",
+        description: "A trade-line will be posted to boost your credit score.",
+      },
+    ],
+    action:
+      "With Standard Processing at 72 business hours, we also offer Rush Processing for faster service. Plus, payment plans are available to fit your needs. This package is perfect for those who want added value and convenience with all the necessary documents included.",
+  },
 ];
