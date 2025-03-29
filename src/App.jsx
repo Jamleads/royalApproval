@@ -166,7 +166,6 @@ function App() {
           </div>
         </section>
 
-        {/* <!-- Services Section --> */}
         {/* <section id="services" className="md:my-40">
           <div className="text-center underline py-2 lg:my-20 text-theDarkGold lg:text-[100px] text-[50px]">
             Extra Benefits
