@@ -5,7 +5,6 @@ import { packages, reveiews } from "./utils/data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
 
