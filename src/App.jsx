@@ -1,18 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
-import { CarSide, Housekey, HouseSignal, Warehouse } from "./assets";
+import { Housekey } from "./assets";
 import { packages, reveiews } from "./utils/data";
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCards, Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
 
 function App() {
-  const toPayment = (paymentUrl) => {
-    window.location.href = paymentUrl;
-  };
   return (
     <>
       <div className="bg-gray-100">
@@ -23,7 +20,6 @@ function App() {
               <div className="w-[150px] h-[80px] flex items-center justify-center">
                 <img src="/logo_white.jpg" alt="" />
               </div>
-              {/* <h1 className="text-2xl leading-10">Royal Oasis</h1> */}
             </div>
 
             <nav>
@@ -136,14 +132,18 @@ function App() {
                 className="lg:text-[40px] text-[20px] font-bold text-the_yellow"
                 data-aos="fade-down-right"
               >
-                Royal Oasis specializes in helping individuals navigate the
-                process of securing apartments and cars.
+                Royal Oasis is dedicated to simplifying the process of securing
+                apartments and cars for individuals.
               </h1>
               <p data-aos="fade-down-right">
-                At Royal Oasis, we recognize the difficulties and frustrations
-                involved in securing housing and transportation. Our mission is
-                to ensure a smooth, efficient process, providing our clients
-                with reliable support and peace of mind every step of the way.
+                We understand the challenges and frustrations that often come
+                with finding the right housing and transportation, which is why
+                our mission is to provide seamless, efficient solutions. At
+                Royal Oasis, we offer reliable support and expert guidance to
+                ensure our clients experience peace of mind throughout every
+                step of their journey. Whether you’re searching for your next
+                home or vehicle, we’re here to make the process easier and
+                stress-free.
               </p>
               <div className="mt-10 md:flex gap-2">
                 <a
@@ -168,12 +168,12 @@ function App() {
         </section>
 
         {/* <!-- Services Section --> */}
-        <section id="services" className="md:my-40">
+        {/* <section id="services" className="md:my-40">
           <div className="text-center underline py-2 lg:my-20 text-theDarkGold lg:text-[100px] text-[50px]">
             Extra Benefits
           </div>
           <div className="lg:w-[80%] lg:px-0 px-5 mx-auto lg:grid grid-cols-3 flex flex-col gap-10">
-            {/* <div
+            <div
               data-aos="fade-up"
               data-aos-duration="3000"
               className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
@@ -288,7 +288,7 @@ function App() {
                   </div>
                 </div>
               </div>
-            </div>  */}
+            </div> 
 
             <div
               data-aos="fade-up"
@@ -336,7 +336,7 @@ function App() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* <!-- Special Product --> */}
         <section>
@@ -717,7 +717,7 @@ function App() {
 
         {/* <!-- testimones --> */}
 
-        <div className="md:w-[80%] w-[90%] mx-auto ">
+        <div id="testimones" className="md:w-[80%] w-[90%] mx-auto ">
           <div className="flex flex-col items-center justify-center mb-3">
             <p className="underline py-2 text-theDarkGold lg:text-[100px] text-[50px]">
               Testimonials
@@ -775,38 +775,14 @@ function App() {
           </div>
         </div>
 
-        <section id="testimones" className="md:mb-40 mt-10">
+        <section className="md:mb-40 mt-10">
           <div className="md:w-[80%] w-[90%] mx-auto">
             <div className="flex gap-10 md:flex-row flex-col">
               <div className="">
-                {/* <div>
-                  <div className="underline py-2 text-theDarkGold lg:text-[100px] text-[50px]">
-                    Testimonials
-                  </div>
-                  <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
-                    Hear What Our Customers Say About Us
-                  </h1>
-                  <p>
-                    At Royal Oasis, we pride ourselves on putting smiles on the
-                    faces of countless individuals by helping them secure
-                    approvals for their dream homes and cars. Our clients
-                    consistently express their gratitude for our efficient,
-                    supportive, and seamless approval process. We understand the
-                    emotional and financial significance of owning a home or
-                    car, and we are dedicated to making these dreams a reality.
-                    Read below to see the heartfelt stories of how we've
-                    transformed lives and provided peace of mind through our
-                    exceptional services.
-                  </p>
-                </div> */}
-
                 <div className="flex flex-col gap-4">
                   <div className="underline py-2 text-theDarkGold lg:text-[100px] text-[50px]">
                     Disclaimer
                   </div>
-                  {/* <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
-                  Disclaimer
-                  </h1> */}
                   <p>
                     All clients are responsible for any fees outside of the
                     package that may or may not be limited to Application &
@@ -873,30 +849,6 @@ function App() {
                   </div>
                 </div>
               </div>
-
-              {/* <div className="lg:w-1/2 border-2 border-theDarkGold pt-5">
-                <div className="text-center mb-10">
-                  <p className="text-3xl">
-                    See what our customers says about us
-                  </p>
-                  <p className="">Drag left or right to see more</p>
-                </div>
-
-                <div className="swiper mySwiper md:h-[800px] md:overflow-x-auto overflow-x-hidden">
-                  <Swiper
-                    effect={"cards"}
-                    grabCursor={true}
-                    modules={[EffectCards]}
-                    className="mySwiper"
-                  >
-                    {reveiews.map((item, idx) => (
-                      <SwiperSlide key={idx}>
-                        <img src={item.image} alt="" />
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-                </div>
-              </div> */}
             </div>
           </div>
         </section>
