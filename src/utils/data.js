@@ -412,7 +412,7 @@ export const packages = [
   },
 
   {
-    id: 3,
+    id: 4,
     price: "$850",
     name: "House Package",
     paymentUrl: "https://square.link/u/sIaXfc7G",
@@ -451,7 +451,7 @@ export const packages = [
   },
 
   {
-    id: 1,
+    id: 5,
     price: "$1300",
     name: "Premium House Package",
     paymentUrl: "https://square.link/u/1lyaINhM",
@@ -487,5 +487,68 @@ export const packages = [
     ],
     action:
       "With Standard Processing at 72 business hours, we also offer Rush Processing for faster service. Plus, payment plans are available to fit your needs. This package is perfect for those who want added value and convenience with all the necessary documents included.",
+  },
+
+  {
+    id: 6,
+    price: "$950",
+    name: "Self-Apply Quick Car Package",
+    paymentUrl: "https://square.link/u/1lyaINhM",
+    subhead:
+      "Take control of your car purchase with our Self-Apply Quick Car Package, priced at $950. This package provides you with everything you need to streamline your application process:",
+    benefits: [
+      {
+        title: "1. Personalized Profile:",
+        description:
+          "A custom profile created in your name to help guide your journey.",
+      },
+      {
+        title: "2. One Tradeline on Experian:",
+        description:
+          "Add a tradeline to your Experian report, potentially enhancing your credit profile.",
+      },
+      {
+        title: "3. Two Pay Stubs & 1 Bank Statement:",
+        description: "Submit simple documentation to verify your income.",
+      },
+      {
+        title: "Employment Verification:",
+        description:
+          "Confirm your current employment as part of your application.",
+      },
+    ],
+    action:
+      "Designed for those who want a fast and efficient way to get started, this package includes flexible payment plans to suit your needs. It’s the perfect option for those looking to take a step toward securing their car. Completed In 72 hours ",
+  },
+  {
+    id: 7,
+    price: "$1100",
+    name: "Premium Car Package",
+    paymentUrl: "https://square.link/u/1lyaINhM",
+    subhead:
+      "Looking to build a stronger credit profile while securing your car? Our Premium Car Package, priced at $1,100, offers a comprehensive solution designed to enhance your financial standing:",
+    benefits: [
+      {
+        title: "1. Personalized Profile:",
+        description:
+          "A custom profile created in your name to streamline your application.",
+      },
+      {
+        title: "2. Two Trade Lines:",
+        description:
+          "Add two trade lines to your credit report for a stronger credit profile.",
+      },
+      {
+        title: "3. Four Pay Stubs & 2 Bank Statements:",
+        description:
+          "Submit documentation for income verification and financial stability.",
+      },
+      {
+        title: "4. Employment Verification:",
+        description: "Confirm your current employment as part of the process.",
+      },
+    ],
+    action:
+      " This package is ideal for those seeking to build a more robust credit profile. The process takes 30-60 days to be fully completed. It’s a self-apply package, giving you control over the process, and payment plans are available to make it easier.",
   },
 ];
