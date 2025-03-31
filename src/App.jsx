@@ -801,7 +801,7 @@ function App() {
 
                   <div className="">
                     <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
-                      Ackground Concealment for Apartment Rentals
+                      Background Concealment for Apartment Rentals
                     </h1>
                     <p>
                       Our service helps you secure the apartment you deserve,
