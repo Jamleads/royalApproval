@@ -301,7 +301,7 @@ export const packages = [
   {
     id: 1,
     price: "$580",
-    name: "Basic Package",
+    name: "Basic Apartment Package",
     paymentUrl: "https://square.link/u/lafMkYN3",
     benefits: [
       {
@@ -334,7 +334,7 @@ export const packages = [
   {
     id: 2,
     price: "$780",
-    name: "Deluxe Package",
+    name: "Deluxe Apartment Package",
     paymentUrl: "https://square.link/u/mebYh1ep",
     benefits: [
       {
@@ -367,7 +367,7 @@ export const packages = [
   {
     id: 3,
     price: "$1050",
-    name: "Premium Deluxe Package",
+    name: "Premium Deluxe Apartment Package",
     paymentUrl: "https://square.link/u/pW0yhV6h",
     subhead:
       "Unlock more benefits with our Premium Deluxe Package, designed to give you enhanced support and convenience, including a physical novelty SSC. This package includes:",
@@ -413,7 +413,7 @@ export const packages = [
 
   {
     id: 4,
-    price: "$850",
+    price: "$880",
     name: "House Package",
     paymentUrl: "https://square.link/u/sIaXfc7G",
     benefits: [
