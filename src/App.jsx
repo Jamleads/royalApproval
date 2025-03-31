@@ -789,8 +789,32 @@ function App() {
                     all places accept profiles. In the event that you are
                     denied, We will continue on with another apartment. The
                     purchasing of another package is not necessary and we will
-                    work with you until approved.
+                    work with you until approved. <br /> <br />
+                    Our service works to conceal background information from
+                    landlords and property management companies but does not
+                    guarantee approval for rental applications. The outcome of
+                    your rental application may depend on other factors,
+                    including the policies of individual property owners and
+                    managers.Some properties can still pull up your background.
+                    It’s best to go the route our team has set for you .
                   </p>
+
+                  <div className="">
+                    <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
+                      Ackground Concealment for Apartment Rentals
+                    </h1>
+                    <p>
+                      Our service helps you secure the apartment you deserve,
+                      regardless of your past. With our "Background Concealment"
+                      package, we discreetly work to hide any criminal history
+                      or other negative background information from potential
+                      landlords. We understand that everyone deserves a fresh
+                      start, and our service ensures your past won’t affect your
+                      ability to find a home. Let us help you overcome obstacles
+                      and give you the privacy and peace of mind you need to
+                      move forward with confidence. <br />
+                    </p>
+                  </div>
 
                   <div className="">
                     <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">

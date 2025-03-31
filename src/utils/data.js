@@ -328,6 +328,10 @@ export const packages = [
         description:
           "The profile will be completed within 72 business hours (excluding weekends).",
       },
+      {
+        title: "5.",
+        description: "",
+      },
     ],
   },
 
@@ -357,13 +361,17 @@ export const packages = [
           "Includes one tradeline to help build or improve your credit history.",
       },
       {
-        title: "5. Standard Processing Time:",
+        title: "5.	Team Application to Your Chosen Apartment:",
+        description:
+          "My team will apply on your behalf to the apartment of your choice, streamlining the process.",
+      },
+      {
+        title: "6. Standard Processing Time:",
         description:
           "Your profile will be completed in 72 business hours (excluding weekends).",
       },
     ],
   },
-
   {
     id: 3,
     price: "$1050",
@@ -550,5 +558,51 @@ export const packages = [
     ],
     action:
       " This package is ideal for those seeking to build a more robust credit profile. The process takes 30-60 days to be fully completed. It’s a self-apply package, giving you control over the process, and payment plans are available to make it easier.",
+  },
+  {
+    id: 8,
+    price: "$925",
+    name: "Background Package",
+    subhead:
+      "Our comprehensive Background Package is designed to streamline your application process with ease and confidence. Our comprehensive Background Package is designed to streamline your application process with ease and confidence. ",
+    benefits: [
+      {
+        title: "1. Personalized Profile:",
+        description:
+          "A detailed profile tailored to you, including your birthdate and key personal information",
+      },
+      {
+        title: "2. Novelty Digital ID:",
+        description:
+          "A unique digital ID that enhances your credibility for various applications.",
+      },
+      {
+        title: "3. Offer Letter:",
+        description:
+          "Receive an official offer letter to support your job search or rental applications.",
+      },
+      {
+        title: "4. Employment & Rental Verification:",
+        description:
+          "Our team will verify your employment and rental history for added trust and reliability.",
+      },
+      {
+        title: "5. Apartment Search Assistance::",
+        description:
+          "Let our experts help you find the perfect apartment that fits your needs and preferences.",
+      },
+      {
+        title: "6. Application Handling:",
+        description:
+          "Our dedicated team manages your applications, ensuring everything is submitted correctly and promptly.",
+      },
+      {
+        title: "7. One Tradeline on Experian:",
+        description:
+          "We’ll add one tradeline to your Experian credit report to boost your credit profile.",
+      },
+    ],
+    action:
+      " The entire process takes 72 hours to be completed, and we also offer rush processing if you need it sooner. Plus, we offer flexible payment plans to make the process affordable and convenient for you. Let us handle the paperwork, so you can focus on what matters most. Sign up for our Background Package today and take the next step toward securing your future.",
   },
 ];
