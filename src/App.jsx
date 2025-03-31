@@ -539,7 +539,7 @@ function App() {
                       </div>
                     </div>
 
-                    <div
+                    {/* <div
                       className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
                       data-aos="fade-down-right"
                     >
@@ -549,7 +549,7 @@ function App() {
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Any PDF Doc
                       </div>
-                    </div>
+                    </div> */}
 
                     <div
                       className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
@@ -625,7 +625,7 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$65</p>
+                        <p className="text-xl">$70</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Regular Pay Stub

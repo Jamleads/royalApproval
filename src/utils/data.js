@@ -516,7 +516,7 @@ export const packages = [
         description: "Submit simple documentation to verify your income.",
       },
       {
-        title: "Employment Verification:",
+        title: "4. Employment Verification:",
         description:
           "Confirm your current employment as part of your application.",
       },
