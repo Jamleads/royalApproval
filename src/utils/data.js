@@ -328,6 +328,10 @@ export const packages = [
         description:
           "The profile will be completed within 72 business hours (excluding weekends).",
       },
+      {
+        title: "6. Black Profile",
+        description: "No score needed.",
+      },
     ],
   },
 
