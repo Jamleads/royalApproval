@@ -374,25 +374,25 @@ export const packages = [
   },
   {
     id: 3,
-    price: "$1050",
+    price: "$1075",
     name: "Premium Deluxe Apartment Package",
     paymentUrl: "https://square.link/u/pW0yhV6h",
     subhead:
-      "Unlock more benefits with our Premium Deluxe Package, designed to give you enhanced support and convenience, including a physical novelty SSC. This package includes:",
+      "Unlock more benefits with our Premium Deluxe Package, designed to give you enhanced support and convenience, including a digital ssc emailed to you. This package includes:",
     benefits: [
       {
         title: "1.	Personalized Profile:",
         description: "Customized in your name for a seamless experience.",
       },
       {
-        title: "2.	Two Novo Verified Stubs (NOVO ONLY):",
+        title: "2.	One Novo Verified Stubs (NOVO ONLY):",
         description:
           "Verified paystubs plus 1 offer letter to strengthen your application.",
       },
       {
-        title: "3.	Physical Novelty SSC:",
+        title: "3. Digital Novelty SSC:",
         description:
-          "A physical novelty SSC mailed directly to you for your records.",
+          "A digital novelty SSC emailed directly to you for your records.",
       },
       {
         title: "4.	Employment & Rental Verification:",
@@ -561,7 +561,7 @@ export const packages = [
   },
   {
     id: 8,
-    price: "$925",
+    price: "$950",
     name: "Background Package",
     subhead:
       "Our comprehensive Background Package is designed to streamline your application process with ease and confidence. Our comprehensive Background Package is designed to streamline your application process with ease and confidence. ",
@@ -577,27 +577,31 @@ export const packages = [
           "A unique digital ID that enhances your credibility for various applications.",
       },
       {
-        title: "3. Offer Letter:",
+        title: "3.	Digital Novelty SSC:",
+        description: "A digital novelty SSC will be emailed directly to you.",
+      },
+      {
+        title: "4. Offer Letter:",
         description:
           "Receive an official offer letter to support your job search or rental applications.",
       },
       {
-        title: "4. Employment & Rental Verification:",
+        title: "5. Employment & Rental Verification:",
         description:
           "Our team will verify your employment and rental history for added trust and reliability.",
       },
       {
-        title: "5. Apartment Search Assistance::",
+        title: "6. Apartment Search Assistance::",
         description:
           "Let our experts help you find the perfect apartment that fits your needs and preferences.",
       },
       {
-        title: "6. Application Handling:",
+        title: "7. Application Handling:",
         description:
           "Our dedicated team manages your applications, ensuring everything is submitted correctly and promptly.",
       },
       {
-        title: "7. One Tradeline on Experian:",
+        title: "8. One Tradeline on Experian:",
         description:
           "We’ll add one tradeline to your Experian credit report to boost your credit profile.",
       },
