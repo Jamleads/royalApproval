@@ -363,7 +363,7 @@ function App() {
                     {pkg?.action && (
                       <div className="mt-3 text-xs font-bold">{pkg.action}</div>
                     )}
-                    <div className="mt-3">
+                    {/* <div className="mt-3">
                       Payment plans are available. To inquire or get started,
                       text{" "}
                       <a
@@ -373,7 +373,7 @@ function App() {
                       >
                         404-951-6649
                       </a>{" "}
-                    </div>
+                    </div> */}
                     <div className="mt-10 flex flex-col gap-3">
                       <a
                         href="tel:+14049516649"
@@ -435,7 +435,7 @@ function App() {
                   you choose standard or rush processing, we're dedicated to
                   delivering prompt and efficient service.
                 </p>
-                <div className="mt3">
+                {/* <div className="mt3">
                   To purchase a package, please contact{" "}
                   <a
                     href="tel:+14049516649"
@@ -445,7 +445,7 @@ function App() {
                     404-951-6649
                   </a>{" "}
                   for any help
-                </div>
+                </div> */}
 
                 <div className="mt-10 md:flex gap-2">
                   <a
@@ -840,7 +840,7 @@ function App() {
                     </p>
                   </div>
 
-                  <div className="mt3">
+                  {/* <div className="mt3">
                     To purchase a package, please contact{" "}
                     <a
                       href="tel:+14049516649"
@@ -850,7 +850,7 @@ function App() {
                       404-951-6649
                     </a>{" "}
                     for any help
-                  </div>
+                  </div> */}
 
                   <div className="mt-10 md:flex gap-2">
                     <a
