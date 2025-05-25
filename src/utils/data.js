@@ -416,7 +416,7 @@ export const packages = [
       },
     ],
     action:
-      "Payment plans are available to fit your budget. This package is ideal for those seeking a physical novelty SSC with added benefits and support throughout the process.",
+      "Payment plans are available to fit your budget. This package is ideal for those seeking a digital novelty SSC with added benefits and support throughout the process.",
   },
 
   {
@@ -472,8 +472,8 @@ export const packages = [
           "Tailored specifically in your name for a seamless experience.",
       },
       {
-        title: "2.	Physical Novelty SSC:",
-        description: "A physical novelty SSC will be mailed directly to you.",
+        title: "2.	Digital Novelty SSC:",
+        description: "A digital novelty SSC will be mailed directly to you.",
       },
       {
         title: "3.	4 Paystubs & 2 Months of Bank Statements:",
