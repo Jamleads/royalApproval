@@ -337,7 +337,7 @@ export const packages = [
 
   {
     id: 2,
-    price: "$780",
+    price: "$865",
     name: "Deluxe Apartment Package",
     paymentUrl: "https://square.link/u/mebYh1ep",
     benefits: [
@@ -368,13 +368,13 @@ export const packages = [
       {
         title: "6. Standard Processing Time:",
         description:
-          "Your profile will be completed in 72 business hours (excluding weekends).",
+          "Your profile will now be completed within 7–14 business days (excluding weekends and holidays).",
       },
     ],
   },
   {
     id: 3,
-    price: "$1075",
+    price: "$1160",
     name: "Premium Deluxe Apartment Package",
     paymentUrl: "https://square.link/u/pW0yhV6h",
     subhead:
@@ -412,7 +412,7 @@ export const packages = [
       {
         title: "7.	Standard Processing:",
         description:
-          "Typically completed in 72 business hours (excluding weekends). Rush Processing is also available for expedited service.",
+          "Now completed within 7–14 business days (excluding weekends and holidays). Rush Processing is no longer available as we’ve updated our timeline to better serve all clients with quality and consistency.",
       },
     ],
     action:
@@ -421,7 +421,7 @@ export const packages = [
 
   {
     id: 4,
-    price: "$880",
+    price: "$965",
     name: "House Package",
     paymentUrl: "https://square.link/u/sIaXfc7G",
     benefits: [
@@ -451,16 +451,16 @@ export const packages = [
           "A self-application package, giving you full control over the process and the ability to apply at your convenience.",
       },
       {
-        title: "6.	Standard Processing Time:",
+        title: "6. Standard Processing Time:",
         description:
-          "The profile will be completed within 72 business hours (excluding weekends), ensuring fast and efficient processing.",
+          "Standard Processing Time: The profile will now be completed within 7–14 business days (excluding weekends and holidays), ensuring each file is handled with care and accuracy.",
       },
     ],
   },
 
   {
     id: 5,
-    price: "$1300",
+    price: "$1385",
     name: "Premium House Package",
     paymentUrl: "https://square.link/u/1lyaINhM",
     subhead:
@@ -494,12 +494,12 @@ export const packages = [
       },
     ],
     action:
-      "With Standard Processing at 72 business hours, we also offer Rush Processing for faster service. Plus, payment plans are available to fit your needs. This package is perfect for those who want added value and convenience with all the necessary documents included.",
+      "With standard processing now set at 7–14 business days (excluding weekends and holidays), we ensure each file is completed with the attention it deserves. Payment plans are available to make the process even more accessible and convenient for you. This package is perfect for those who want added value, flexibility, and all the essential documents included in one complete solution.",
   },
 
   {
     id: 6,
-    price: "$950",
+    price: "$1035",
     name: "Self-Apply Quick Car Package",
     paymentUrl: "https://square.link/u/1lyaINhM",
     subhead:
@@ -526,11 +526,11 @@ export const packages = [
       },
     ],
     action:
-      "Designed for those who want a fast and efficient way to get started, this package includes flexible payment plans to suit your needs. It’s the perfect option for those looking to take a step toward securing their car. Completed In 72 hours ",
+      "Designed for those who want an efficient and affordable way to get started, this package includes flexible payment plans to fit your budget. It’s the perfect option for anyone ready to take a step toward securing their car. Please note: Processing is now completed within 7–14 business days (excluding weekends and holidays), ensuring every file is handled with care and accuracy.",
   },
   {
     id: 7,
-    price: "$1100",
+    price: "$1185",
     name: "Premium Car Package",
     paymentUrl: "https://square.link/u/1lyaINhM",
     subhead:
@@ -561,7 +561,7 @@ export const packages = [
   },
   {
     id: 8,
-    price: "$950",
+    price: "$1035",
     name: "Background Package",
     subhead:
       "Our comprehensive Background Package is designed to streamline your application process with ease and confidence. Our comprehensive Background Package is designed to streamline your application process with ease and confidence. ",
@@ -607,6 +607,6 @@ export const packages = [
       },
     ],
     action:
-      " The entire process takes 72 hours to be completed, and we also offer rush processing if you need it sooner. Plus, we offer flexible payment plans to make the process affordable and convenient for you. Let us handle the paperwork, so you can focus on what matters most. Sign up for our Background Package today and take the next step toward securing your future.",
+      "The entire process now takes 7–14 business days to be completed (excluding weekends and holidays). We’ve updated our timeline to ensure every file gets the care and attention it deserves. To keep things affordable and convenient, we still offer flexible payment plans that work with your budget. Let us handle the paperwork, so you can focus on what matters most. Sign up for our Background Package today and take the next step toward securing your future with confidence.",
   },
 ];

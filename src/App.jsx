@@ -421,19 +421,20 @@ function App() {
 
               <div className="flex flex-col gap-4 mt-5">
                 <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
-                  Rush Orders & Processing Time
+                  {/* Rush Orders & Processing Time */}
+                  📣 Important Update on Processing Times
                 </h1>
                 <p>
-                  We understand that time is of the essence, and we offer
-                  flexible processing options to meet your needs: <br /> <br />
-                  Standard Processing Time: Our typical processing time is 72
-                  business hours (excluding weekends), allowing us to thoroughly
-                  process your order with care. Rush Processing: Need it faster?
-                  For a $250 rush processing fee, your order will be completed
-                  within 24-48 business hours. This expedited option ensures you
-                  get your documents in a fraction of the usual time. Whether
-                  you choose standard or rush processing, we're dedicated to
-                  delivering prompt and efficient service.
+                  We understand how important timely service is, and we
+                  appreciate your trust in us. In the past, we offered both
+                  standard and rush processing options to accommodate urgent
+                  requests. <br /> <br />
+                  Effective immediately, all processing times are now 7–14
+                  business days (excluding weekends and holidays). We are no
+                  longer offering rush processing services. <br /> <br />
+                  This change allows us to better manage volume while continuing
+                  to provide the quality and accuracy you deserve. Thank you so
+                  much for your understanding and continued support 💛
                 </p>
                 {/* <div className="mt3">
                   To purchase a package, please contact{" "}
@@ -677,7 +678,7 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$85</p>
+                        <p className="text-xl">$100</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Offer Letter
@@ -688,7 +689,7 @@ function App() {
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
-                        <p className="text-xl">$105</p>
+                        <p className="text-xl">$135</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
                         Offer Letter With Verification
