@@ -674,7 +674,7 @@ function App() {
                     </div>
 
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold "
                       data-aos="fade-down-right"
                     >
                       <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
