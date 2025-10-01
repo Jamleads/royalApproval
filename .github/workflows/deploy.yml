@@ -34,7 +34,7 @@ jobs:
       - name: 📂 Sync files via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ftpes://server284.web-hosting.com
+          server: server284.web-hosting.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: public_html/
