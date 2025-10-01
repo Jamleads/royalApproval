@@ -37,7 +37,7 @@ export { default as Cutomer32 } from "../assets/cutomer32.jpeg";
 export { default as Cutomer33 } from "../assets/cutomer33.jpeg";
 
 export { default as Cutomer_1 } from "../assets/Customer_1.jpeg";
-export { default as Cutomer_2 } from "../assets/Customer_2.jpeg";
+// export { default as Cutomer_2 } from "../assets/Customer_2.jpeg";
 export { default as Cutomer_3 } from "../assets/Customer_3.jpeg";
 export { default as Cutomer_4 } from "../assets/Customer_4.jpeg";
 export { default as Cutomer_5 } from "../assets/Customer_5.jpeg";
@@ -70,9 +70,4 @@ export { default as Cutomer_31 } from "../assets/Customer_31.jpeg";
 export { default as Cutomer_32 } from "../assets/Customer_32.jpeg";
 export { default as Cutomer_33 } from "../assets/Customer_33.jpeg";
 export { default as Cutomer_34 } from "../assets/Customer_34.jpeg";
-export { default as Cutomer_35 } from "../assets/Customer_35.jpeg";
-export { default as Cutomer_36 } from "../assets/Customer_36.jpeg";
-export { default as Cutomer_37 } from "../assets/Customer_37.jpeg";
 export { default as Cutomer_38 } from "../assets/Customer_38.jpeg";
-export { default as Cutomer_39 } from "../assets/Customer_39.jpeg";
-export { default as Cutomer_40 } from "../assets/Customer_40.jpeg";

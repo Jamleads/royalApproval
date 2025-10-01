@@ -33,7 +33,6 @@ import {
   Cutomer32,
   Cutomer33,
   Cutomer_1,
-  Cutomer_2,
   Cutomer_3,
   Cutomer_4,
   Cutomer_5,
@@ -50,12 +49,7 @@ import {
   Cutomer_16,
   Cutomer_17,
   Cutomer_18,
-  Cutomer_40,
-  Cutomer_39,
   Cutomer_38,
-  Cutomer_37,
-  Cutomer_36,
-  Cutomer_35,
   Cutomer_34,
   Cutomer_33,
   Cutomer_32,
@@ -77,9 +71,6 @@ import {
 export const reveiews = [
   {
     image: Cutomer_1,
-  },
-  {
-    image: Cutomer_2,
   },
   {
     image: Cutomer_4,
@@ -178,22 +169,7 @@ export const reveiews = [
     image: Cutomer_34,
   },
   {
-    image: Cutomer_35,
-  },
-  {
-    image: Cutomer_36,
-  },
-  {
-    image: Cutomer_37,
-  },
-  {
     image: Cutomer_38,
-  },
-  {
-    image: Cutomer_39,
-  },
-  {
-    image: Cutomer_40,
   },
   {
     image: Cutomer2,
@@ -299,56 +275,19 @@ export const reveiews = [
 
 export const packages = [
   {
-    id: 1,
-    price: "$580",
-    name: "Basic Apartment Package",
-    paymentUrl: "https://square.link/u/lafMkYN3",
-    benefits: [
-      {
-        title: "1. Personalized Profile:",
-        description:
-          "A profile in your name, tailored for your unique situation.",
-      },
-      {
-        title: "2. Offer Letter:",
-        description: "1 official offer letter to strengthen your application.",
-      },
-      {
-        title: "3. Employment & Residential Verification:",
-        description:
-          "Verification of both employment and residential details, ensuring accuracy and validity.",
-      },
-      {
-        title: "4. Self-Apply Package:",
-        description:
-          "A streamlined self-application package, perfect for those who prefer to manage their process independently.",
-      },
-      {
-        title: "5. Standard Processing Time",
-        description:
-          "The profile will be completed within 72 business hours (excluding weekends).",
-      },
-      {
-        title: "6. Black Profile",
-        description: "No score needed.",
-      },
-    ],
-  },
-
-  {
-    id: 2,
-    price: "$865",
+    id: 4,
+    price: "$965",
     name: "Deluxe Apartment Package",
-    paymentUrl: "https://square.link/u/mebYh1ep",
+    paymentUrl: "https://square.link/u/sIaXfc7G",
     benefits: [
       {
-        title: "1.	Profile Attached to Your Name:",
+        title: "1. Profile Attached to Your Name:",
         description:
           "A tailored profile created specifically in your name to enhance your application.",
       },
       {
         title: "2. Offer Letter:",
-        description: "1 official offer letter to help support your process.",
+        description: "One official offer letter to support your process.",
       },
       {
         title: "3. Employment & Residential Verification:",
@@ -356,220 +295,173 @@ export const packages = [
           "Ensures both employment and residential information are verified for credibility and accuracy.",
       },
       {
-        title: "4. Tradeline:",
+        title: "4. Tradeline posted on Experian:",
         description:
-          "Includes one tradeline to help build or improve your credit history.",
+          "Includes one tradeline to help build or improve your credit history. Will on post to Experian. No other credit bureaus",
       },
       {
-        title: "5.	Team Application to Your Chosen Apartment:",
+        title: "5. Team Application to Your Chosen Apartment:",
         description:
-          "My team will apply on your behalf to the apartment of your choice, streamlining the process.",
+          "Our team will apply on your behalf to the apartment of your choice, working directly with the property management to ensure the process goes smoothly",
       },
       {
-        title: "6. Standard Processing Time:",
+        title: "6. Processing Time:",
         description:
-          "Your profile will now be completed within 7–14 business days (excluding weekends and holidays).",
+          "With this package, we complete the entire process for you. The timeline is 15 business days from the close date of the tradeline (excluding weekends and holidays)",
       },
     ],
+    action:
+      "Disclaimer: If any novelty documents are required, they must be purchased separately.",
   },
   {
     id: 3,
-    price: "$1160",
+    price: "$1260",
     name: "Premium Deluxe Apartment Package",
     paymentUrl: "https://square.link/u/pW0yhV6h",
-    subhead:
-      "Unlock more benefits with our Premium Deluxe Package, designed to give you enhanced support and convenience, including a digital ssc emailed to you. This package includes:",
+    // subhead:
+    //   "Unlock more benefits with our Premium Deluxe Package, designed to give you enhanced support and convenience, including a digital ssc emailed to you. This package includes:",
     benefits: [
       {
-        title: "1.	Personalized Profile:",
+        title: "1. Personalized Profile:",
         description: "Customized in your name for a seamless experience.",
       },
       {
-        title: "2.	One Novo Verified Stubs (NOVO ONLY):",
+        title: "2. Offer Letter:",
         description:
-          "Verified paystubs plus 1 offer letter to strengthen your application.",
+          "One official offer letter provided to strengthen your application.",
       },
       {
-        title: "3. Digital Novelty SSC:",
+        title: "3. Physical Novelty SSC:",
         description:
-          "A digital novelty SSC emailed directly to you for your records.",
+          "A novelty SSC card shipped directly to your address for your records.",
       },
       {
-        title: "4.	Employment & Rental Verification:",
+        title: "4. Employment & Rental Verification:",
         description:
           "Confirmation of your employment and rental history for added reliability.",
       },
       {
-        title: "5.	Trade-Line Score Posting to Experian:",
+        title: "5. One Tradeline Posting to a Credit Card of my Choice:",
         description:
-          "A trade-line posted to Experian to help boost your credit score.",
+          "Includes one tradeline to help build or improve your credit history.",
       },
       {
-        title: "6.	Team Application to Your Chosen Apartment:",
+        title: "6. Team Application to Your Chosen Apartment:",
         description:
-          "My team will apply on your behalf to the apartment of your choice, streamlining the process.",
+          "Our team will apply on your behalf to the apartment of your choice, working directly with the property management to ensure the process goes smoothly",
       },
       {
-        title: "7.	Standard Processing:",
+        title: "7. Processing Time:",
         description:
-          "Now completed within 7–14 business days (excluding weekends and holidays). Rush Processing is no longer available as we’ve updated our timeline to better serve all clients with quality and consistency.",
+          "With this package, we complete the entire process for you. The timeline is 15 business days from the close date of the tradeline (excluding weekends and holidays).",
       },
     ],
     action:
-      "Payment plans are available to fit your budget. This package is ideal for those seeking a digital novelty SSC with added benefits and support throughout the process.",
+      "Disclaimer: If any additional novelty documents are required, they must be purchased separately..",
   },
-
-  {
-    id: 4,
-    price: "$965",
-    name: "House Package",
-    paymentUrl: "https://square.link/u/sIaXfc7G",
-    benefits: [
-      {
-        title: "1.	Personalized Profile",
-        description:
-          "A custom profile created in your name for a tailored experience.",
-      },
-      {
-        title: "2.	Paystubs & Bank Statement:",
-        description:
-          "Includes two paystubs and 1 bank statement to support your financial verification.",
-      },
-      {
-        title: "3.	Employment & Residential Verification:",
-        description:
-          "Both employment and residential information will be verified to ensure accuracy and credibility.",
-      },
-      {
-        title: "4.	Tradeline:",
-        description:
-          "Includes one tradeline to help establish or enhance your credit history, giving you a better financial profile.",
-      },
-      {
-        title: "5.	Self-Apply Package:",
-        description:
-          "A self-application package, giving you full control over the process and the ability to apply at your convenience.",
-      },
-      {
-        title: "6. Standard Processing Time:",
-        description:
-          "Standard Processing Time: The profile will now be completed within 7–14 business days (excluding weekends and holidays), ensuring each file is handled with care and accuracy.",
-      },
-    ],
-  },
-
   {
     id: 5,
-    price: "$1385",
+    price: "$1500",
     name: "Premium House Package",
     paymentUrl: "https://square.link/u/1lyaINhM",
     subhead:
-      "Take your credit journey to the next level with our Premium House Package, designed to offer comprehensive support and additional benefits without hidden fees for required documents. This package includes:",
+      "Take your credit journey to the next level with our Premium House Package, designed to offer full support and convenience for your housing goals. This package includes",
     benefits: [
       {
-        title: "1.	Personalized Profile:",
+        title: "1. Personalized Profile:",
         description:
           "Tailored specifically in your name for a seamless experience.",
       },
       {
-        title: "2.	Digital Novelty SSC:",
-        description: "A digital novelty SSC will be mailed directly to you.",
+        title: "2. Physical Novelty SSC:",
+        description:
+          "A novelty SSC card shipped directly to your address for your records.",
       },
       {
-        title: "3.	4 Paystubs & 2 Months of Bank Statements:",
+        title: "3. 4 Paystubs & 2 Months of Bank Statements:",
         description: "Essential documents to support your financial profile.",
       },
       {
-        title: "4.	Employment & Rental Verification:",
+        title: "4. Employment & Rental Verification:",
         description: "Confirmations to ensure credibility and reliability.",
       },
       {
-        title: "5.	Self-Apply Package:",
+        title: "5. Full House Application Support:",
         description:
-          "A straightforward way for you to manage and apply at your convenience.",
+          "Our team will handle up to 5 house applications on your behalf and work directly with landlords to ensure the process goes smoothly, unless otherwise discussed",
       },
       {
-        title: "6.	Trade-line Posting from Experian:",
-        description: "A trade-line will be posted to boost your credit score.",
+        title: "6. Two Tradelines (Posting of Our Choice):",
+        description:
+          "Includes two tradelines to help build and improve your credit history",
+      },
+      {
+        title: "7. Processing Timeline:",
+        description:
+          "Please reach out at least one month in advance so everything can be properly prepared and completed. Tradelines require 30–45 days to post accurately.",
+      },
+      {
+        title: "8. Payment Plans:",
+        description:
+          "Available to fit your budget. To ensure proper completion, packages must also be started at least one month in advance.",
       },
     ],
     action:
-      "With standard processing now set at 7–14 business days (excluding weekends and holidays), we ensure each file is completed with the attention it deserves. Payment plans are available to make the process even more accessible and convenient for you. This package is perfect for those who want added value, flexibility, and all the essential documents included in one complete solution.",
-  },
-
-  {
-    id: 6,
-    price: "$1035",
-    name: "Self-Apply Quick Car Package",
-    paymentUrl: "https://square.link/u/1lyaINhM",
-    subhead:
-      "Take control of your car purchase with our Self-Apply Quick Car Package, priced at $950. This package provides you with everything you need to streamline your application process:",
-    benefits: [
-      {
-        title: "1. Personalized Profile:",
-        description:
-          "A custom profile created in your name to help guide your journey.",
-      },
-      {
-        title: "2. One Tradeline on Experian:",
-        description:
-          "Add a tradeline to your Experian report, potentially enhancing your credit profile.",
-      },
-      {
-        title: "3. Two Pay Stubs & 1 Bank Statement:",
-        description: "Submit simple documentation to verify your income.",
-      },
-      {
-        title: "4. Employment Verification:",
-        description:
-          "Confirm your current employment as part of your application.",
-      },
-    ],
-    action:
-      "Designed for those who want an efficient and affordable way to get started, this package includes flexible payment plans to fit your budget. It’s the perfect option for anyone ready to take a step toward securing their car. Please note: Processing is now completed within 7–14 business days (excluding weekends and holidays), ensuring every file is handled with care and accuracy.",
+      "Disclaimer: If any additional novelty documents are required, they must be purchased separately.",
   },
   {
     id: 7,
-    price: "$1185",
+    price: "$1300",
     name: "Premium Car Package",
     paymentUrl: "https://square.link/u/1lyaINhM",
     subhead:
-      "Looking to build a stronger credit profile while securing your car? Our Premium Car Package, priced at $1,100, offers a comprehensive solution designed to enhance your financial standing:",
+      "Looking to build a stronger credit profile while securing your car? Our Premium Car Package offers a comprehensive solution designed to enhance your financial standing and streamline the car approval process",
     benefits: [
       {
         title: "1. Personalized Profile:",
         description:
-          "A custom profile created in your name to streamline your application.",
+          "A custom profile created in your name to strengthen your application.",
       },
       {
-        title: "2. Two Trade Lines:",
+        title: "2. Two Tradelines:",
         description:
-          "Add two trade lines to your credit report for a stronger credit profile.",
+          "Includes two tradelines to help build or improve your credit history.",
       },
       {
-        title: "3. Four Pay Stubs & 2 Bank Statements:",
+        title: "3. Four Paystubs & Two Months of Bank Statements:",
         description:
-          "Submit documentation for income verification and financial stability.",
+          "Essential documents provided to support your income verification and financial profile.",
       },
       {
         title: "4. Employment Verification:",
-        description: "Confirm your current employment as part of the process.",
+        description:
+          "Confirmation of your current employment for added credibility",
+      },
+      {
+        title: "5. Full Car Application Support:",
+        description:
+          "Our team will handle your car application directly to ensure the process goes smoothly.",
+      },
+      {
+        title: "6. Processing Timeline:",
+        description:
+          "This package requires 30–60 days from the close date of the tradeline for full completion.",
       },
     ],
     action:
-      " This package is ideal for those seeking to build a more robust credit profile. The process takes 30-60 days to be fully completed. It’s a self-apply package, giving you control over the process, and payment plans are available to make it easier.",
+      "Disclaimer: If any additional novelty documents are required, they must be purchased separately.",
   },
   {
     id: 8,
-    price: "$1035",
+    price: "$1250",
     name: "Background Package",
     subhead:
-      "Our comprehensive Background Package is designed to streamline your application process with ease and confidence. Our comprehensive Background Package is designed to streamline your application process with ease and confidence. ",
+      "Our comprehensive Background Package is designed to streamline your application process with ease and confidence. This package includes.",
     benefits: [
       {
         title: "1. Personalized Profile:",
         description:
-          "A detailed profile tailored to you, including your birthdate and key personal information",
+          "A detailed profile tailored to you, including your birthdate and key personal information.",
       },
       {
         title: "2. Novelty Digital ID:",
@@ -577,13 +469,14 @@ export const packages = [
           "A unique digital ID that enhances your credibility for various applications.",
       },
       {
-        title: "3.	Digital Novelty SSC:",
-        description: "A digital novelty SSC will be emailed directly to you.",
+        title: "3. Physical Novelty SSC:",
+        description:
+          "A novelty SSC card shipped directly to your address for your records.",
       },
       {
         title: "4. Offer Letter:",
         description:
-          "Receive an official offer letter to support your job search or rental applications.",
+          "One official offer letter to support your job search or rental applications.",
       },
       {
         title: "5. Employment & Rental Verification:",
@@ -591,9 +484,9 @@ export const packages = [
           "Our team will verify your employment and rental history for added trust and reliability.",
       },
       {
-        title: "6. Apartment Search Assistance::",
+        title: "6. Apartment Search Assistance:",
         description:
-          "Let our experts help you find the perfect apartment that fits your needs and preferences.",
+          "Our experts will help you find the perfect apartment that fits your needs and preferences",
       },
       {
         title: "7. Application Handling:",
@@ -601,12 +494,17 @@ export const packages = [
           "Our dedicated team manages your applications, ensuring everything is submitted correctly and promptly.",
       },
       {
-        title: "8. One Tradeline on Experian:",
+        title: "8. One Tradeline (Our Choice):",
         description:
-          "We’ll add one tradeline to your Experian credit report to boost your credit profile.",
+          "Includes one tradeline selected by us to help build or improve your credit history.",
+      },
+      {
+        title: "9. Processing Timeline:",
+        description:
+          "This package requires 7–14 business days from the close date of the tradeline for full completion (excluding weekends and holidays).",
       },
     ],
     action:
-      "The entire process now takes 7–14 business days to be completed (excluding weekends and holidays). We’ve updated our timeline to ensure every file gets the care and attention it deserves. To keep things affordable and convenient, we still offer flexible payment plans that work with your budget. Let us handle the paperwork, so you can focus on what matters most. Sign up for our Background Package today and take the next step toward securing your future with confidence.",
+      "Disclaimer: If any additional novelty documents are required, they must be purchased separately.",
   },
 ];

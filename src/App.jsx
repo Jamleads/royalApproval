@@ -166,179 +166,9 @@ function App() {
           </div>
         </section>
 
-        {/* <section id="services" className="md:my-40">
-          <div className="text-center underline py-2 lg:my-20 text-theDarkGold lg:text-[100px] text-[50px]">
-            Extra Benefits
-          </div>
-          <div className="lg:w-[80%] lg:px-0 px-5 mx-auto lg:grid grid-cols-3 flex flex-col gap-10">
-            <div
-              data-aos="fade-up"
-              data-aos-duration="3000"
-              className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
-            >
-              <div className="flex flex-col items-center justify-center gap-10 text-center text-white">
-                <div className="flex items-center gap-5">
-                  <div className="w-[50px] h-[50px] flex items-center justify-center">
-                    <img src={HouseSignal} alt="" className="w-full" />
-                  </div>
-
-                  <p className="text-the_yellow text-2xl font-bold">
-                    House Package
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text_text">
-                    We simplify the house approval process, guiding you every
-                    step of the way. Our expert team ensures you overcome any
-                    hurdles quickly and efficiently, turning your dream of
-                    homeownership into a reality.
-                  </p>
-
-                  <div className="mt-3 font-bold">
-                    Payments plans available <br /> text{" "}
-                    <a
-                      href="tel:+14049516649"
-                      target="_blank"
-                      className="text-red-300 cursor-pointer"
-                    >
-                      404-951-6649
-                    </a>{" "}
-                    to inquire about getting started
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              data-aos="fade-up"
-              data-aos-duration="3000"
-              className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
-            >
-              <div className="flex flex-col items-center justify-center gap-10 text-center text-white">
-                <div className="flex items-center gap-5">
-                  <div className="w-[50px] h-[50px] flex items-center justify-center">
-                    <img src={CarSide} alt="" className="w-full" />
-                  </div>
-
-                  <p className="text-the_yellow text-2xl font-bold">
-                    Car Package
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text_text">
-                    Whether you're buying your first car or upgrading, we
-                    streamline the car approval process. With our tailored
-                    approach and industry expertise, we help you secure the
-                    vehicle you need without the stress
-                  </p>
-
-                  <div className="mt-3 font-bold">
-                    Payments plans available <br /> text{" "}
-                    <a
-                      href="tel:+14049516649"
-                      target="_blank"
-                      className="text-red-300 cursor-pointer"
-                    >
-                      404-951-6649
-                    </a>{" "}
-                    to inquire about getting started
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              data-aos="fade-up"
-              data-aos-duration="3000"
-              className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
-            >
-              <div className="flex flex-col items-center justify-center gap-10 text-center text-white">
-                <div className="flex items-center gap-5">
-                  <div className="w-[50px] h-[50px] flex items-center justify-center">
-                    <img src={Warehouse} alt="" className="w-full" />
-                  </div>
-
-                  <p className="text-the_yellow text-2xl font-bold">
-                    Apartment Package
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text_text">
-                    Experience the convenience of securing apartment approvals
-                    through our comprehensive service. We coordinate both
-                    processes seamlessly, saving you time and effort while
-                    delivering exceptional results.
-                  </p>
-
-                  <div className="mt-3 font-bold">
-                    Payments plans available <br /> text{" "}
-                    <a
-                      href="tel:+14049516649"
-                      target="_blank"
-                      className="text-red-300 cursor-pointer"
-                    >
-                      404-951-6649
-                    </a>{" "}
-                    to inquire about getting started
-                  </div>
-                </div>
-              </div>
-            </div> 
-
-            <div
-              data-aos="fade-up"
-              data-aos-duration="3000"
-              className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
-            >
-              <div className="flex flex-col items-center justify-center gap-10 text-center text-white">
-                <div className="flex items-center gap-5">
-                  <div className="w-[50px] h-[50px] flex items-center justify-center">
-                    <img src={Warehouse} alt="" className="w-full" />
-                  </div>
-
-                  <p className="text-the_yellow text-2xl font-bold">
-                    Rush order available
-                  </p>
-                </div>
-
-                <p className="text_text">
-                  $200 Profile will be sent to you in 24 business hours
-                </p>
-              </div>
-            </div>
-
-            <div
-              data-aos="fade-up"
-              data-aos-duration="3000"
-              className="cursor-pointer p-10 flex items-center justify-center rounded-3xl bg-the_gray shadow-xl"
-            >
-              <div className="flex flex-col items-center justify-center gap-10 text-center text-white">
-                <div className="flex items-center gap-5">
-                  <div className="w-[50px] h-[50px] flex items-center justify-center">
-                    <img src={Warehouse} alt="" className="w-full" />
-                  </div>
-
-                  <p className="text-the_yellow text-2xl font-bold">
-                    Payment plan description
-                  </p>
-                </div>
-
-                <p className="text_text">
-                  Hey love 💝 payment plan goes as follows You pay half up front
-                  for me to start the process and I don’t finish the process
-                  until paid in full There is also a payment plan fee of $50
-                </p>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
         {/* <!-- Special Product --> */}
         <section>
-          <div className="md:w-[80%] mx-auto w-[90%] mt-20">
+          <div id="services" className="md:w-[80%] mx-auto w-[90%] mt-20">
             <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
               {packages.map((pkg, index) => (
                 <div key={index} className="">
@@ -363,17 +193,6 @@ function App() {
                     {pkg?.action && (
                       <div className="mt-3 text-xs font-bold">{pkg.action}</div>
                     )}
-                    {/* <div className="mt-3">
-                      Payment plans are available. To inquire or get started,
-                      text{" "}
-                      <a
-                        href="tel:+14049516649"
-                        target="_blank"
-                        className="text-theDarkGold cursor-pointer"
-                      >
-                        404-951-6649
-                      </a>{" "}
-                    </div> */}
                     <div className="mt-10 flex flex-col gap-3">
                       <a
                         href="tel:+14049516649"
@@ -383,7 +202,7 @@ function App() {
                       >
                         <i className="fa-solid fa-phone-volume"></i> Send A Text
                       </a>
-                      <a
+                      {/* <a
                         target="_blank"
                         href="mailto:contact@royalapprovals.com"
                         className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
@@ -391,11 +210,97 @@ function App() {
                       >
                         <i className="fa-regular fa-envelope-open"></i> Send An
                         Email
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
               ))}
+
+              <div className="">
+                <div className="px-10 bg-theDarkGold text-white pt-10 pb-20 rounded-3xl">
+                  <p className="text-3xl">Sublease Package – Case by Case</p>
+                  {/* <p className="text-5xl font-bold">{pkg.price}</p> */}
+                </div>
+                <div className="bg-white md:w-[85%] w-[90%] md:pl-5 mx-auto py-10 px-5 rounded-2xl -mt-10">
+                  <div className="my-3 text-xs font-bold">
+                    Our Sublease Package offers the most hands-on housing
+                    solution, where you are subleasing directly under our
+                    company. We take care of the entire process from start to
+                    finish — all you have to do is pick up your keys. <br />{" "}
+                    <br /> Please Note: This package is not open to everyone.
+                    Eligibility is determined case by case, based on income and
+                    other factors.
+                  </div>
+
+                  <ul className="flex flex-col gap-5">
+                    <p>What’s Included:</p>
+                    <li>
+                      <span className=" font-bold">Company Sublease:</span>You
+                      will be officially subleased under our company for added
+                      security and credibility..
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Property Options Provided:{" "}
+                      </span>
+                      You must choose from the list of approved properties we
+                      provide.
+                    </li>
+                    <li>
+                      <span className=" font-bold">Income Verification: </span>
+                      We personally verify your income to ensure you can
+                      comfortably afford the property you select.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Full Process Management:{" "}
+                      </span>
+                      We handle the full leasing process with the property
+                      management on your behalf until move-in day.
+                    </li>
+                  </ul>
+
+                  <div className=" mt-3">
+                    <p className=" font-semibold">Deposit Requirements:</p>
+                    <ul className=" text-sm">
+                      <li>
+                        • $500 non-refundable deposit is required to hold your
+                        spot.
+                      </li>
+                      <li>
+                        • An additional $500 payment is due before the lease is
+                        signed.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="mt-3 text-xs font-bold">
+                    Disclaimer: Sublease availability is limited and not
+                    guaranteed. Approval is based on case-by-case eligibility
+                    and verified income.
+                  </div>
+
+                  <div className="mt-10 flex flex-col gap-3">
+                    <a
+                      href="tel:+14049516649"
+                      target="_blank"
+                      className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
+                      data-aos="fade-down-right"
+                    >
+                      <i className="fa-solid fa-phone-volume"></i> Send A Text
+                    </a>
+                    {/* <a
+                        target="_blank"
+                        href="mailto:contact@royalapprovals.com"
+                        className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                        data-aos="fade-down-right"
+                      >
+                        <i className="fa-regular fa-envelope-open"></i> Send An
+                        Email
+                      </a> */}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -421,33 +326,24 @@ function App() {
 
               <div className="flex flex-col gap-4 mt-5">
                 <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
-                  {/* Rush Orders & Processing Time */}
                   📣 Important Update on Processing Times
                 </h1>
                 <p>
-                  We understand how important timely service is, and we
-                  appreciate your trust in us. In the past, we offered both
-                  standard and rush processing options to accommodate urgent
-                  requests. <br /> <br />
-                  Effective immediately, all processing times are now 7–14
-                  business days (excluding weekends and holidays). We are no
-                  longer offering rush processing services. <br /> <br />
-                  This change allows us to better manage volume while continuing
-                  to provide the quality and accuracy you deserve. Thank you so
-                  much for your understanding and continued support 💛
+                  We truly value your trust in us and want to ensure every
+                  profile is completed with the attention and care it deserves
+                  <br /> <br />
+                  Effective immediately, <br />• All processing times are now
+                  7–14 business days from the close date of the tradeline
+                  (excluding weekends and holidays). <br />• Rush processing is
+                  no longer available. <br /> <br />
+                  To make sure your profile can be completed in a timely manner,
+                  we now require that clients come to us at least one month in
+                  advance. This allows enough time for your tradelines and
+                  documents to be properly handled without delays.
+                  <br /> <br />
+                  Thank you for understanding and for allowing us to continue
+                  providing you with quality, accurate, and reliable service 💛
                 </p>
-                {/* <div className="mt3">
-                  To purchase a package, please contact{" "}
-                  <a
-                    href="tel:+14049516649"
-                    target="_blank"
-                    className="text-theDarkGold cursor-pointer"
-                  >
-                    404-951-6649
-                  </a>{" "}
-                  for any help
-                </div> */}
-
                 <div className="mt-10 md:flex gap-2">
                   <a
                     href="tel:+14049516649"
