@@ -274,45 +274,45 @@ export const reveiews = [
 ];
 
 export const packages = [
-  {
-    id: 4,
-    price: "$965",
-    name: "Deluxe Apartment Package",
-    paymentUrl: "https://square.link/u/sIaXfc7G",
-    benefits: [
-      {
-        title: "1. Profile Attached to Your Name:",
-        description:
-          "A tailored profile created specifically in your name to enhance your application.",
-      },
-      {
-        title: "2. Offer Letter:",
-        description: "One official offer letter to support your process.",
-      },
-      {
-        title: "3. Employment & Residential Verification:",
-        description:
-          "Ensures both employment and residential information are verified for credibility and accuracy.",
-      },
-      {
-        title: "4. Tradeline posted on Experian:",
-        description:
-          "Includes one tradeline to help build or improve your credit history. Will on post to Experian. No other credit bureaus",
-      },
-      {
-        title: "5. Team Application to Your Chosen Apartment:",
-        description:
-          "Our team will apply on your behalf to the apartment of your choice, working directly with the property management to ensure the process goes smoothly",
-      },
-      {
-        title: "6. Processing Time:",
-        description:
-          "With this package, we complete the entire process for you. The timeline is 15 business days from the close date of the tradeline (excluding weekends and holidays)",
-      },
-    ],
-    action:
-      "Disclaimer: If any novelty documents are required, they must be purchased separately.",
-  },
+  // {
+  //   id: 4,
+  //   price: "$965",
+  //   name: "Deluxe Apartment Package",
+  //   paymentUrl: "https://square.link/u/sIaXfc7G",
+  //   benefits: [
+  //     {
+  //       title: "1. Profile Attached to Your Name:",
+  //       description:
+  //         "A tailored profile created specifically in your name to enhance your application.",
+  //     },
+  //     {
+  //       title: "2. Offer Letter:",
+  //       description: "One official offer letter to support your process.",
+  //     },
+  //     {
+  //       title: "3. Employment & Residential Verification:",
+  //       description:
+  //         "Ensures both employment and residential information are verified for credibility and accuracy.",
+  //     },
+  //     {
+  //       title: "4. Tradeline posted on Experian:",
+  //       description:
+  //         "Includes one tradeline to help build or improve your credit history. Will on post to Experian. No other credit bureaus",
+  //     },
+  //     {
+  //       title: "5. Team Application to Your Chosen Apartment:",
+  //       description:
+  //         "Our team will apply on your behalf to the apartment of your choice, working directly with the property management to ensure the process goes smoothly",
+  //     },
+  //     {
+  //       title: "6. Processing Time:",
+  //       description:
+  //         "With this package, we complete the entire process for you. The timeline is 15 business days from the close date of the tradeline (excluding weekends and holidays)",
+  //     },
+  //   ],
+  //   action:
+  //     "Disclaimer: If any novelty documents are required, they must be purchased separately.",
+  // },
 
   {
     id: 3,
