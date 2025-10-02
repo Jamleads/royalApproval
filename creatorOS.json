@@ -1,0 +1,98 @@
+[
+  {
+    "work_item_key": "COS-1",
+    "summary": "Wireframes for content hub core flows",
+    "assignee": "adestephen88@gmail.com",
+    "user_stories": 1,
+    "issue_block": "",
+    "description": "Clickable low-fi prototype covering upload, dashboard, and preview"
+  },
+  {
+    "work_item_key": "COS-2",
+    "summary": "High-fidelity UI design for upload & dashboard",
+    "assignee": "adestephen88@gmail.com",
+    "user_stories": 3,
+    "issue_block": "COS-1",
+    "description": "Pixel-perfect design with responsive layout in Figma"
+  },
+  {
+    "work_item_key": "COS-3",
+    "summary": "Error handling & validation states design",
+    "assignee": "adestephen88@gmail.com",
+    "user_stories": 1,
+    "issue_block": "COS-2",
+    "description": "Design covers empty states, error states, and success feedback"
+  },
+  {
+    "work_item_key": "COS-4",
+    "summary": "Frontend upload form UI",
+    "assignee": "leumaskings501@gmail.com",
+    "user_stories": 3,
+    "issue_block": "",
+    "description": "Form supports drag-and-drop and file selection with validation for type and size"
+  },
+  {
+    "work_item_key": "COS-5",
+    "summary": "User dashboard (list of uploaded content)",
+    "assignee": "leumaskings501@gmail.com",
+    "user_stories": 3,
+    "issue_block": "COS-4",
+    "description": "Dashboard displays content metadata (title, type, date uploaded)"
+  },
+  {
+    "work_item_key": "COS-6",
+    "summary": "Content preview & player (text/audio/video)",
+    "assignee": "leumaskings501@gmail.com",
+    "user_stories": 5,
+    "issue_block": "COS-5",
+    "description": "Supports embedded player for audio/video, inline display for text"
+  },
+  {
+    "work_item_key": "COS-7",
+    "summary": "Content editing (basic metadata updates)",
+    "assignee": "leumaskings501@gmail.com",
+    "user_stories": 3,
+    "issue_block": "COS-5",
+    "description": "Users can edit title, description, tags of their uploaded content"
+  },
+  {
+    "work_item_key": "COS-8",
+    "summary": "Content upload API (backend service)",
+    "assignee": "oladipoolayinka7@gmail.com",
+    "user_stories": 5,
+    "issue_block": "",
+    "description": "API endpoint accepts text, audio, video uploads and stores metadata in DB"
+  },
+  {
+    "work_item_key": "COS-9",
+    "summary": "Database schema for content hub",
+    "assignee": "oladipoolayinka7@gmail.com",
+    "user_stories": 3,
+    "issue_block": "COS-8",
+    "description": "Schema supports user assigneeship, content types, metadata, and versioning"
+  },
+  {
+    "work_item_key": "COS-10",
+    "summary": "Authentication & Authorization module",
+    "assignee": "oladipoolayinka7@gmail.com",
+    "user_stories": 5,
+    "issue_block": "",
+    "description": "User login, registration, and JWT-based session handling"
+  },
+  {
+    "work_item_key": "COS-11",
+    "summary": "API for fetching user content list",
+    "assignee": "oladipoolayinka7@gmail.com",
+    "user_stories": 3,
+    "issue_block": "COS-9",
+    "description": "Endpoint returns user-owned content metadata in JSON format"
+  },
+  {
+    "work_item_key": "COS-12",
+    "summary": "Deployment pipeline setup (CI/CD)",
+    "assignee": "oladipoolayinka7@gmail.com",
+    "user_stories": 3,
+    "issue_block": "",
+    "description": "Automated build/test/deploy pipeline configured"
+  }
+]

@@ -95,14 +95,14 @@ function App() {
                   >
                     <i className="fa-solid fa-phone-volume"></i> Send A Text
                   </a>
-                  <a
+                  {/* <a
                     target="_blank"
                     href="mailto:contact@royalapprovals.com"
                     className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
                   >
                     <i className="fa-regular fa-envelope-open"></i> Send An
                     Email
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -153,14 +153,14 @@ function App() {
                 >
                   <i className="fa-solid fa-phone-volume"></i> Send A Text
                 </a>
-                <a
+                {/* <a
                   target="_blank"
                   href="mailto:contact@royalapprovals.com"
                   className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
                   data-aos="fade-down-right"
                 >
                   <i className="fa-regular fa-envelope-open"></i> Send An Email
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -352,14 +352,14 @@ function App() {
                   >
                     <i className="fa-solid fa-phone-volume"></i> Send A Text
                   </a>
-                  <a
+                  {/* <a
                     target="_blank"
                     href="mailto:contact@royalapprovals.com"
                     className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
                   >
                     <i className="fa-regular fa-envelope-open"></i> Send An
                     Email
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -757,14 +757,14 @@ function App() {
                     >
                       <i className="fa-solid fa-phone-volume"></i> Send A Text
                     </a>
-                    <a
+                    {/* <a
                       target="_blank"
                       href="mailto:contact@royalapprovals.com"
                       className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
                     >
                       <i className="fa-regular fa-envelope-open"></i> Send An
                       Email
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
