@@ -80,7 +80,7 @@ function App() {
           </video>
           <div className="relative container mx-auto px-4 flex items-center justify-center h-full">
             <div className="text-center">
-              <h2 className="md:text-[100px] text-5xl">ROYAL OASIS</h2>
+              <h2 className="md:text-[100px] text-5xl">ROYAL Approval</h2>
               <p className="md:text-xl text-sm mb-8">
                 We specializes in helping individuals navigate the process of
                 securing apartments and cars
@@ -131,14 +131,14 @@ function App() {
                 className="lg:text-[40px] text-[20px] font-bold text-the_yellow"
                 data-aos="fade-down-right"
               >
-                Royal Oasis is dedicated to simplifying the process of securing
-                apartments and cars for individuals.
+                Royal Approval is dedicated to simplifying the process of
+                securing apartments and cars for individuals.
               </h1>
               <p data-aos="fade-down-right">
                 We understand the challenges and frustrations that often come
                 with finding the right housing and transportation, which is why
                 our mission is to provide seamless, efficient solutions. At
-                Royal Oasis, we offer reliable support and expert guidance to
+                Royal Approval, we offer reliable support and expert guidance to
                 ensure our clients experience peace of mind throughout every
                 step of their journey. Whether you’re searching for your next
                 home or vehicle, we’re here to make the process easier and
@@ -621,15 +621,15 @@ function App() {
               Hear What Our Customers Say About Us
             </h1>
             <p className=" text-center">
-              At Royal Oasis, we pride ourselves on putting smiles on the faces
-              of countless individuals by helping them secure approvals for
-              their dream homes and cars. Our clients consistently express their
-              gratitude for our efficient, supportive, and seamless approval
-              process. We understand the emotional and financial significance of
-              owning a home or car, and we are dedicated to making these dreams
-              a reality. Read below to see the heartfelt stories of how we've
-              transformed lives and provided peace of mind through our
-              exceptional services.
+              At Royal Approval, we pride ourselves on putting smiles on the
+              faces of countless individuals by helping them secure approvals
+              for their dream homes and cars. Our clients consistently express
+              their gratitude for our efficient, supportive, and seamless
+              approval process. We understand the emotional and financial
+              significance of owning a home or car, and we are dedicated to
+              making these dreams a reality. Read below to see the heartfelt
+              stories of how we've transformed lives and provided peace of mind
+              through our exceptional services.
             </p>
           </div>
           <div className="border-2 border-theDarkGold pt-5">
