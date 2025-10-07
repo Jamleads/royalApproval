@@ -71,3 +71,4 @@ export { default as Cutomer_32 } from "../assets/Customer_32.jpeg";
 export { default as Cutomer_33 } from "../assets/Customer_33.jpeg";
 export { default as Cutomer_34 } from "../assets/Customer_34.jpeg";
 export { default as Cutomer_38 } from "../assets/Customer_38.jpeg";
+export { default as NewLogo } from "../assets/newlogo.png";

@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Housekey } from "./assets";
+import { Housekey, NewLogo } from "./assets";
 import { packages, reveiews } from "./utils/data";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -16,8 +16,8 @@ function App() {
         <header className="bg-white shadow">
           <div className="flex justify-between items-center md:w-[80%] w-[90%] mx-auto">
             <div className="flex items-center gap-5">
-              <div className="w-[150px] h-[80px] flex items-center justify-center">
-                <img src="/logo_white.jpg" alt="" />
+              <div className="w-[150px] h-[90px] flex items-center justify-center">
+                <img src={NewLogo} alt="" className="w-full h-full" />
               </div>
             </div>
 
@@ -80,7 +80,7 @@ function App() {
           </video>
           <div className="relative container mx-auto px-4 flex items-center justify-center h-full">
             <div className="text-center">
-              <h2 className="md:text-[100px] text-5xl">ROYAL Approval</h2>
+              <h2 className="md:text-[100px] text-5xl">ROYAL APPROVAL</h2>
               <p className="md:text-xl text-sm mb-8">
                 We specializes in helping individuals navigate the process of
                 securing apartments and cars
