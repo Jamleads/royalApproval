@@ -8,7 +8,7 @@ export default {
         // the_gray: "#F2F5F5",
         the_gray: "#595A5C",
         // theDarkGold: "#B8860B",
-        theDarkGold: "#2876BC",
+        theDarkGold: "#7E6374",
       },
     },
   },

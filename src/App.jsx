@@ -26,7 +26,7 @@ function App() {
                 <li>
                   <a
                     href="#"
-                    className="text-[#1C76BC] font-semibold hover:text-gray-800"
+                    className="text-[#7E6374] font-semibold hover:text-gray-800"
                   >
                     Home
                   </a>
@@ -34,7 +34,7 @@ function App() {
                 <li>
                   <a
                     href="#about"
-                    className="text-[#1C76BC] font-semibold hover:text-gray-800"
+                    className="text-[#7E6374] font-semibold hover:text-gray-800"
                   >
                     About
                   </a>
@@ -42,7 +42,7 @@ function App() {
                 <li>
                   <a
                     href="#services"
-                    className="text-[#1C76BC] font-semibold hover:text-gray-800"
+                    className="text-[#7E6374] font-semibold hover:text-gray-800"
                   >
                     Services
                   </a>
@@ -50,7 +50,7 @@ function App() {
                 <li>
                   <a
                     href="#pricing"
-                    className="text-[#1C76BC] font-semibold hover:text-gray-800"
+                    className="text-[#7E6374] font-semibold hover:text-gray-800"
                   >
                     Pricing
                   </a>
@@ -58,7 +58,7 @@ function App() {
                 <li>
                   <a
                     href="#testimones"
-                    className="text-[#1C76BC] font-semibold hover:text-gray-800"
+                    className="text-[#7E6374] font-semibold hover:text-gray-800"
                   >
                     Testimonies
                   </a>
@@ -91,7 +91,7 @@ function App() {
                   <a
                     href="tel:+14049516649"
                     target="_blank"
-                    className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
+                    className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
                   >
                     <i className="fa-solid fa-phone-volume"></i> Send A Text
                   </a>
@@ -122,7 +122,7 @@ function App() {
 
             <div className="lg:w-3/5">
               <div
-                className="underline py-2 text-theDarkGold lg:text-[100px] text-[50px]"
+                className="underline py-2 text-[#7E6374] lg:text-[100px] text-[50px]"
                 data-aos="fade-down-right"
               >
                 About us
@@ -148,7 +148,7 @@ function App() {
                 <a
                   href="tel:+14049516649"
                   target="_blank"
-                  className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
+                  className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
                   data-aos="fade-down-right"
                 >
                   <i className="fa-solid fa-phone-volume"></i> Send A Text
@@ -172,7 +172,7 @@ function App() {
             <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
               {packages.map((pkg, index) => (
                 <div key={index} className="">
-                  <div className="px-10 bg-theDarkGold text-white pt-10 pb-20 rounded-3xl">
+                  <div className="px-10 bg-[#7E6374] text-white pt-10 pb-20 rounded-3xl">
                     <p className="text-3xl">{pkg.name}</p>
                     <p className="text-5xl font-bold">{pkg.price}</p>
                   </div>
@@ -197,7 +197,7 @@ function App() {
                       <a
                         href="tel:+14049516649"
                         target="_blank"
-                        className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
+                        className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
                         data-aos="fade-down-right"
                       >
                         <i className="fa-solid fa-phone-volume"></i> Send A Text
@@ -217,7 +217,7 @@ function App() {
               ))}
 
               <div className="">
-                <div className="px-10 bg-theDarkGold text-white pt-10 pb-20 rounded-3xl">
+                <div className="px-10 bg-[#7E6374] text-white pt-10 pb-20 rounded-3xl">
                   <p className="text-3xl">Sublease Package – Case by Case</p>
                   {/* <p className="text-5xl font-bold">{pkg.price}</p> */}
                 </div>
@@ -284,7 +284,7 @@ function App() {
                     <a
                       href="tel:+14049516649"
                       target="_blank"
-                      className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
+                      className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
                       data-aos="fade-down-right"
                     >
                       <i className="fa-solid fa-phone-volume"></i> Send A Text
@@ -309,7 +309,7 @@ function App() {
           <div className="md:w-[80%] w-[90%] mx-auto mt-16">
             <div className="">
               <div>
-                <div className="underline py-2 text-theDarkGold lg:text-[50px] text-[25px]">
+                <div className="underline py-2 text-[#7E6374] lg:text-[50px] text-[25px]">
                   Payment Plan, Rush Orders & Processing Time
                 </div>
                 <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
@@ -348,7 +348,7 @@ function App() {
                   <a
                     href="tel:+14049516649"
                     target="_blank"
-                    className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
+                    className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
                   >
                     <i className="fa-solid fa-phone-volume"></i> Send A Text
                   </a>
@@ -369,7 +369,7 @@ function App() {
         {/* <!-- Pricing --> */}
         <section id="pricing" className="md:my-20 mt-20">
           <div className="md:w-[80%] w-[90%] mx-auto">
-            <div className="text-center underline py-2 lg:my-20 text-theDarkGold lg:text-[100px] text-[50px]">
+            <div className="text-center underline py-2 lg:my-20 text-[#7E6374] lg:text-[100px] text-[50px]">
               Our Price List
             </div>
 
@@ -391,10 +391,10 @@ function App() {
 
                   <div className="flex flex-col gap-10 my-10">
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$75</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -403,10 +403,10 @@ function App() {
                     </div>
 
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$75</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -414,10 +414,10 @@ function App() {
                       </div>
                     </div>
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$75</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -425,10 +425,10 @@ function App() {
                       </div>
                     </div>
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$85</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -437,10 +437,10 @@ function App() {
                     </div>
 
                     {/* <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$50</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -449,10 +449,10 @@ function App() {
                     </div> */}
 
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$270</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -461,10 +461,10 @@ function App() {
                     </div>
 
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$175</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -472,10 +472,10 @@ function App() {
                       </div>
                     </div>
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$380</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -483,10 +483,10 @@ function App() {
                       </div>
                     </div>
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$150</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -494,10 +494,10 @@ function App() {
                       </div>
                     </div>
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$365</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -506,10 +506,10 @@ function App() {
                     </div>
 
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$85 Each</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -518,10 +518,10 @@ function App() {
                     </div>
 
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$70</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -546,10 +546,10 @@ function App() {
                 <div className="py-5 px-10">
                   <div className="flex flex-col gap-10 my-10">
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$75</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -558,10 +558,10 @@ function App() {
                     </div>
 
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$85</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -570,10 +570,10 @@ function App() {
                     </div>
 
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold "
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374] "
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl"> $100</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -581,10 +581,10 @@ function App() {
                       </div>
                     </div>
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$135 </p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -593,10 +593,10 @@ function App() {
                     </div>
 
                     <div
-                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-theDarkGold"
+                      className="bg-the_gray flex items-center h-[100px] border-r-[1px] border-[#7E6374]"
                       data-aos="fade-down-right"
                     >
-                      <div className="w-2/5 h-[120px] mb-5 bg-theDarkGold the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
+                      <div className="w-2/5 h-[120px] mb-5 bg-[#7E6374] the-path rounded-l-3xl flex flex-col items-center justify-center text-white">
                         <p className="text-xl">$85</p>
                       </div>
                       <div className="w-3/5 h-full flex items-center justify-center text-base text-white">
@@ -614,7 +614,7 @@ function App() {
 
         <div id="testimones" className="md:w-[80%] w-[90%] mx-auto ">
           <div className="flex flex-col items-center justify-center mb-3">
-            <p className="underline py-2 text-theDarkGold lg:text-[100px] text-[50px]">
+            <p className="underline py-2 text-[#7E6374] lg:text-[100px] text-[50px]">
               Testimonials
             </p>
             <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
@@ -632,7 +632,7 @@ function App() {
               through our exceptional services.
             </p>
           </div>
-          <div className="border-2 border-theDarkGold pt-5">
+          <div className="border-2 border-[#7E6374] pt-5">
             <div className="text-center mb-10">
               <p className="text-3xl">See what our customers says about us</p>
               <p className="">Drag left or right to see more</p>
@@ -675,7 +675,7 @@ function App() {
             <div className="flex gap-10 md:flex-row flex-col">
               <div className="">
                 <div className="flex flex-col gap-4">
-                  <div className="underline py-2 text-theDarkGold lg:text-[100px] text-[50px]">
+                  <div className="underline py-2 text-[#7E6374] lg:text-[100px] text-[50px]">
                     Disclaimer
                   </div>
                   <p>
@@ -742,7 +742,7 @@ function App() {
                     <a
                       href="tel:+14049516649"
                       target="_blank"
-                      className="text-theDarkGold cursor-pointer"
+                      className="text-[#7E6374] cursor-pointer"
                     >
                       404-951-6649
                     </a>{" "}
@@ -753,7 +753,7 @@ function App() {
                     <a
                       href="tel:+14049516649"
                       target="_blank"
-                      className="bg-theDarkGold text-white font-bold py-3 px-6 rounded items-center gap-3"
+                      className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
                     >
                       <i className="fa-solid fa-phone-volume"></i> Send A Text
                     </a>
@@ -773,7 +773,7 @@ function App() {
         </section>
 
         {/* <!-- Footer Section --> */}
-        <footer className="bg-theDarkGold text-white py-6 flex items-center justify-center mt-20">
+        <footer className="bg-[#7E6374] text-white py-6 flex items-center justify-center mt-20">
           <div>
             <p className="text-center">
               Project managed by{" "}
