@@ -454,7 +454,7 @@ export const packages = [
   },
   {
     id: 8,
-    price: "$1250",
+    price: "$1450",
     name: "Background Package",
     subhead:
       "Our comprehensive Background Package is designed to streamline your application process with ease and confidence. This package includes.",
