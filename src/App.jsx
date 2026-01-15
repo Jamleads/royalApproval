@@ -1,12 +1,74 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Housekey, NewLogo } from "./assets";
-import { packages, reveiews } from "./utils/data";
+import { faqs, COLORS, reveiews } from "./utils/data";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/effect-cards";
+import { useState } from "react";
+
+function FAQSection() {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleFAQ = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+  return (
+    <div style={{ backgroundColor: COLORS.lightGray }} className="py-16 px-6">
+      <div className="max-w-4xl mx-auto">
+        <h2
+          style={{ color: COLORS.darkGold }}
+          className="text-4xl font-bold text-center mb-12"
+        >
+          FAQ
+        </h2>
+
+        <div className="space-y-4">
+          {faqs.map((faq, index) => (
+            <div
+              key={index}
+              style={{ backgroundColor: "white" }}
+              className="rounded-lg shadow-sm overflow-hidden"
+            >
+              <button
+                onClick={() => toggleFAQ(index)}
+                className="w-full text-left p-6 flex justify-between items-center transition-all hover:opacity-80"
+              >
+                <h3
+                  style={{ color: COLORS.darkGray }}
+                  className="text-lg font-semibold pr-8"
+                >
+                  {faq.question}
+                </h3>
+                <span
+                  style={{ color: COLORS.darkGold }}
+                  className="text-2xl font-bold flex-shrink-0"
+                >
+                  {openIndex === index ? "−" : "+"}
+                </span>
+              </button>
+
+              {openIndex === index && (
+                <div
+                  style={{
+                    color: COLORS.darkGray,
+                    backgroundColor: COLORS.lightGray,
+                  }}
+                  className="px-6 pb-6 pt-2"
+                >
+                  <p className="leading-relaxed">{faq.answer}</p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function App() {
   return (
@@ -80,10 +142,12 @@ function App() {
           </video>
           <div className="relative container mx-auto px-4 flex items-center justify-center h-full">
             <div className="text-center">
-              <h2 className="md:text-[100px] text-5xl">ROYAL APPROVAL</h2>
+              <h2 className="md:text-[100px] text-5xl">
+                Second-Chance Approvals Made Simple.
+              </h2>
               <p className="md:text-xl text-sm mb-8">
-                We specializes in helping individuals navigate the process of
-                securing apartments and cars
+                We help you prepare a stronger approval file for apartments and
+                auto financing—so you can apply with confidence, not confusion.
               </p>
 
               <div className="flex item-center justify-center">
@@ -93,16 +157,9 @@ function App() {
                     target="_blank"
                     className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
                   >
-                    <i className="fa-solid fa-phone-volume"></i> Send A Text
+                    <i className="fa-solid fa-phone-volume"></i> Book a
+                    Consultation
                   </a>
-                  {/* <a
-                    target="_blank"
-                    href="mailto:contact@royalapprovals.com"
-                    className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
-                  >
-                    <i className="fa-regular fa-envelope-open"></i> Send An
-                    Email
-                  </a> */}
                 </div>
               </div>
             </div>
@@ -170,116 +227,87 @@ function App() {
         <section>
           <div id="services" className="md:w-[80%] mx-auto w-[90%] mt-20">
             <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
-              {packages.map((pkg, index) => (
-                <div key={index} className="">
-                  <div className="px-10 bg-[#7E6374] text-white pt-10 pb-20 rounded-3xl">
-                    <p className="text-3xl">{pkg.name}</p>
-                    <p className="text-5xl font-bold">{pkg.price}</p>
-                  </div>
-                  <div className="bg-white md:w-[85%] w-[90%] md:pl-5 mx-auto py-10 px-5 rounded-2xl -mt-10">
-                    {pkg?.subhead && (
-                      <div className="my-3 text-xs font-bold">
-                        {pkg.subhead}
-                      </div>
-                    )}
-                    <ul className="flex flex-col gap-5">
-                      {pkg.benefits.map((benefit, idx) => (
-                        <li key={idx}>
-                          <span className=" font-bold">{benefit.title}</span>{" "}
-                          {benefit.description}.
-                        </li>
-                      ))}
-                    </ul>
-                    {pkg?.action && (
-                      <div className="mt-3 text-xs font-bold">{pkg.action}</div>
-                    )}
-                    <div className="mt-10 flex flex-col gap-3">
-                      <a
-                        href="tel:+14049516649"
-                        target="_blank"
-                        className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
-                        data-aos="fade-down-right"
-                      >
-                        <i className="fa-solid fa-phone-volume"></i> Send A Text
-                      </a>
-                      {/* <a
-                        target="_blank"
-                        href="mailto:contact@royalapprovals.com"
-                        className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
-                        data-aos="fade-down-right"
-                      >
-                        <i className="fa-regular fa-envelope-open"></i> Send An
-                        Email
-                      </a> */}
-                    </div>
-                  </div>
-                </div>
-              ))}
-
               <div className="">
                 <div className="px-10 bg-[#7E6374] text-white pt-10 pb-20 rounded-3xl">
-                  <p className="text-3xl">Sublease Package – Case by Case</p>
-                  {/* <p className="text-5xl font-bold">{pkg.price}</p> */}
+                  <p className="text-3xl">
+                    Elite Apartment Preparation Package
+                  </p>
+                  <p className="text-5xl font-bold">$1,260</p>
                 </div>
                 <div className="bg-white md:w-[85%] w-[90%] md:pl-5 mx-auto py-10 px-5 rounded-2xl -mt-10">
                   <div className="my-3 text-xs font-bold">
-                    Our Sublease Package offers the most hands-on housing
-                    solution, where you are subleasing directly under our
-                    company. We take care of the entire process from start to
-                    finish — all you have to do is pick up your keys. <br />{" "}
-                    <br /> Please Note: This package is not open to everyone.
-                    Eligibility is determined case by case, based on income and
-                    other factors.
+                    This package is designed for clients who want hands-on,
+                    concierge-level support while preparing a strong rental
+                    application.
                   </div>
 
                   <ul className="flex flex-col gap-5">
                     <p>What’s Included:</p>
                     <li>
-                      <span className=" font-bold">Company Sublease:</span>You
-                      will be officially subleased under our company for added
-                      security and credibility..
+                      <span className=" font-bold">
+                        Personalized Client Profile:
+                      </span>{" "}
+                      A customized intake profile prepared in your name to
+                      organize your application information.
                     </li>
                     <li>
                       <span className=" font-bold">
-                        Property Options Provided:{" "}
-                      </span>
-                      You must choose from the list of approved properties we
-                      provide.
-                    </li>
-                    <li>
-                      <span className=" font-bold">Income Verification: </span>
-                      We personally verify your income to ensure you can
-                      comfortably afford the property you select.
+                        Application Support Letter:
+                      </span>{" "}
+                      One professionally prepared support letter to strengthen
+                      your rental application presentation.
                     </li>
                     <li>
                       <span className=" font-bold">
-                        Full Process Management:{" "}
-                      </span>
-                      We handle the full leasing process with the property
-                      management on your behalf until move-in day.
+                        Novelty Identification Record:
+                      </span>{" "}
+                      A physical novelty SSC card provided for personal records.
+                      <br />
+                      Physical Novelty SSC (For Records Only) <br />
+                      This item is not a government-issued document and should
+                      not be used in place of official identification.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Application Readiness Review:
+                      </span>{" "}
+                      Guidance on income documentation, rental history, and
+                      application presentation prior to submission.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Credit-Building Strategy Inclusion:
+                      </span>{" "}
+                      One credit-building tradeline strategy selected by our
+                      team to support overall application readiness.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Guided Application Support:
+                      </span>{" "}
+                      Step-by-step guidance during the application process to
+                      your chosen apartment.
+                    </li>
+                    <li>
+                      <span className=" font-bold">Processing Timeline:</span>{" "}
+                      Estimated completion time is 15 business days from the
+                      close date of the tradeline, excluding weekends and
+                      holidays.
                     </li>
                   </ul>
 
                   <div className=" mt-3">
-                    <p className=" font-semibold">Deposit Requirements:</p>
+                    <p className=" font-semibold">REQUIRED DISCLAIMER:</p>
                     <ul className=" text-sm">
                       <li>
-                        • $500 non-refundable deposit is required to hold your
-                        spot.
-                      </li>
-                      <li>
-                        • An additional $500 payment is due before the lease is
-                        signed.
+                        Royal Approvals provides application preparation and
+                        coaching services. We do not submit applications,
+                        guarantee approvals, or represent landlords, property
+                        managers, or lenders. Results may vary based on
+                        third-party screening criteria.
                       </li>
                     </ul>
                   </div>
-
-                  <div className="mt-3 text-xs font-bold">
-                    Disclaimer: Sublease availability is limited and not
-                    guaranteed. Approval is based on case-by-case eligibility
-                    and verified income.
-                  </div>
-
                   <div className="mt-10 flex flex-col gap-3">
                     <a
                       href="tel:+14049516649"
@@ -289,15 +317,224 @@ function App() {
                     >
                       <i className="fa-solid fa-phone-volume"></i> Send A Text
                     </a>
-                    {/* <a
-                        target="_blank"
-                        href="mailto:contact@royalapprovals.com"
-                        className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
-                        data-aos="fade-down-right"
-                      >
-                        <i className="fa-regular fa-envelope-open"></i> Send An
-                        Email
-                      </a> */}
+                    <a
+                      target="_blank"
+                      href="mailto:contact@royalapprovals.com"
+                      className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                      data-aos="fade-down-right"
+                    >
+                      <i className="fa-regular fa-envelope-open"></i> Send An
+                      Email
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="">
+                <div className="px-10 bg-[#7E6374] text-white pt-10 pb-20 rounded-3xl">
+                  <p className="text-3xl">Elite Home Preparation Package</p>
+                  <p className="text-5xl font-bold">$1,500</p>
+                </div>
+                <div className="bg-white md:w-[85%] w-[90%] md:pl-5 mx-auto py-10 px-5 rounded-2xl -mt-10">
+                  <div className="my-3 text-xs font-bold">
+                    Designed for clients seeking guided support while preparing
+                    a strong home application file.
+                  </div>
+
+                  <ul className="flex flex-col gap-5">
+                    <p>What’s Included:</p>
+                    <li>
+                      <span className=" font-bold">
+                        Personalized Client Profile:
+                      </span>{" "}
+                      A detailed intake profile prepared in your name to
+                      organize application-ready information.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Physical Novelty SSC (For Records Only)
+                      </span>{" "}
+                      A novelty SSC card provided for personal reference and
+                      record-keeping purposes only.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Document Readiness Guidance
+                      </span>{" "}
+                      Guidance on acceptable income documentation and financial
+                      presentation for home applications.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Application Strategy Support
+                      </span>{" "}
+                      Support in preparing and organizing application materials
+                      prior to submission.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Multi-Application Coaching
+                      </span>{" "}
+                      Guidance for up to five (5) home applications, unless
+                      otherwise discussed.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Credit-Building Strategy Inclusion
+                      </span>{" "}
+                      Two credit-building tradeline strategies selected by our
+                      team to support application readiness.
+                    </li>
+                    <li>
+                      <span className=" font-bold">Processing Timeline:</span>{" "}
+                      Clients must begin at least 30 days in advance. Tradelines
+                      typically require 30–45 days to reflect.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Payment Plan Availability:
+                      </span>{" "}
+                      Payment plans available. A 50% deposit is required to
+                      begin.
+                    </li>
+                  </ul>
+
+                  <div className=" mt-3">
+                    <p className=" font-semibold">REQUIRED DISCLAIMER:</p>
+                    <ul className=" text-sm">
+                      <li>
+                        Royal Approvals provides application preparation and
+                        coaching services only. We do not submit applications,
+                        verify employment, communicate with landlords, or
+                        guarantee approvals. Results vary based on third-party
+                        screening criteria.
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="mt-10 flex flex-col gap-3">
+                    <a
+                      href="tel:+14049516649"
+                      target="_blank"
+                      className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                      data-aos="fade-down-right"
+                    >
+                      <i className="fa-solid fa-phone-volume"></i> Send A Text
+                    </a>
+                    <a
+                      target="_blank"
+                      href="mailto:contact@royalapprovals.com"
+                      className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                      data-aos="fade-down-right"
+                    >
+                      <i className="fa-regular fa-envelope-open"></i> Send An
+                      Email
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="">
+                <div className="px-10 bg-[#7E6374] text-white pt-10 pb-20 rounded-3xl">
+                  <p className="text-3xl">Application Readiness Package</p>
+                  <p className="text-5xl font-bold">$1,450</p>
+                </div>
+                <div className="bg-white md:w-[85%] w-[90%] md:pl-5 mx-auto py-10 px-5 rounded-2xl -mt-10">
+                  <div className="my-3 text-xs font-bold">
+                    This package is designed for clients who need structured
+                    guidance and organized support before submitting rental or
+                    employment-related applications.
+                  </div>
+
+                  <ul className="flex flex-col gap-5">
+                    <p>What’s Included:</p>
+                    <li>
+                      <span className=" font-bold">
+                        Personalized Client Profile:
+                      </span>{" "}
+                      A detailed intake profile created using your provided
+                      information to support application readiness.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Novelty Digital Identification (For Records Only):
+                      </span>{" "}
+                      A novelty digital ID provided for personal organization
+                      and reference purposes only.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Physical Novelty SSC (For Records Only):
+                      </span>{" "}
+                      A novelty SSC card provided for record-keeping purposes
+                      only. This is not a government-issued document.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Application Support Letter:
+                      </span>{" "}
+                      One professionally prepared support letter to accompany
+                      applications where appropriate.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        * Application Preparation Guidance:
+                      </span>{" "}
+                      Step-by-step guidance on organizing and preparing
+                      application materials prior to submission.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Housing Search Guidance:
+                      </span>{" "}
+                      Assistance identifying housing options aligned with your
+                      stated preferences.
+                    </li>
+                    <li>
+                      <span className=" font-bold">
+                        Credit-Building Strategy Inclusion:
+                      </span>{" "}
+                      One credit-building tradeline strategy selected by our
+                      team to support overall application readiness.
+                    </li>
+                    <li>
+                      <span className=" font-bold">Processing Timeline:</span>{" "}
+                      Estimated completion time is 7–14 business days from the
+                      close date of the tradeline, excluding weekends and
+                      holidays.
+                    </li>
+                  </ul>
+
+                  <div className=" mt-3">
+                    <p className=" font-semibold">REQUIRED DISCLAIMER:</p>
+                    <ul className=" text-sm">
+                      <li>
+                        Royal Approvals provides application preparation and
+                        coaching services only. We do not conceal background
+                        information, submit applications, verify employment,
+                        communicate with landlords or employers, or guarantee
+                        approvals. All novelty items are for personal records
+                        only.
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="mt-10 flex flex-col gap-3">
+                    <a
+                      href="tel:+14049516649"
+                      target="_blank"
+                      className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                      data-aos="fade-down-right"
+                    >
+                      <i className="fa-solid fa-phone-volume"></i> Send A Text
+                    </a>
+                    <a
+                      target="_blank"
+                      href="mailto:contact@royalapprovals.com"
+                      className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
+                      data-aos="fade-down-right"
+                    >
+                      <i className="fa-regular fa-envelope-open"></i> Send An
+                      Email
+                    </a>
                   </div>
                 </div>
               </div>
@@ -310,57 +547,68 @@ function App() {
             <div className="">
               <div>
                 <div className="underline py-2 text-[#7E6374] lg:text-[50px] text-[25px]">
-                  Payment Plan, Rush Orders & Processing Time
+                  Disclaimer
                 </div>
-                <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
-                  Payment Plan Details
-                </h1>
                 <p>
-                  To begin the process, a 50% deposit is required upfront. The
-                  remaining balance will be due before the project is completed.
-                  Please note that a $50 payment plan fee will be added to the
-                  total cost. This ensures that we can proceed smoothly while
-                  maintaining flexibility for both parties.
+                  Royal Approvals provides application preparation,
+                  organization, and coaching services only. We do not submit
+                  applications, communicate with landlords, employers, lenders,
+                  or property management companies, verify employment or rental
+                  history, or guarantee approvals. <br /> <br />
+                  All services are informational and preparatory in nature.
+                  Approval outcomes are determined solely by third-party
+                  screening criteria, policies, and decision-makers outside of
+                  our control. <br /> <br />
+                  Any novelty documents or identification items provided are for
+                  personal records and novelty purposes only and are not
+                  government-issued or intended for official use. <br /> <br />
+                  Clients are responsible for all third-party fees, including
+                  but not limited to application fees, administrative fees,
+                  deposits, move-in costs, and rent. Results may vary based on
+                  individual circumstances. <br /> <br />
+                  By purchasing services from Royal Approvals, you acknowledge
+                  and agree to these terms. <br /> <br />
+                  Services provided are for application preparation and coaching
+                  only. Approval outcomes are not guaranteed and are determined
+                  by third parties. <br /> <br />
                 </p>
               </div>
 
-              <div className="flex flex-col gap-4 mt-5">
-                <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
-                  📣 Important Update on Processing Times
-                </h1>
-                <p>
-                  We truly value your trust in us and want to ensure every
-                  profile is completed with the attention and care it deserves
-                  <br /> <br />
-                  Effective immediately, <br />• All processing times are now
-                  7–14 business days from the close date of the tradeline
-                  (excluding weekends and holidays). <br />• Rush processing is
-                  no longer available. <br /> <br />
-                  To make sure your profile can be completed in a timely manner,
-                  we now require that clients come to us at least one month in
-                  advance. This allows enough time for your tradelines and
-                  documents to be properly handled without delays.
-                  <br /> <br />
-                  Thank you for understanding and for allowing us to continue
-                  providing you with quality, accurate, and reliable service 💛
-                </p>
-                <div className="mt-10 md:flex gap-2">
-                  <a
-                    href="tel:+14049516649"
-                    target="_blank"
-                    className="bg-[#7E6374] text-white font-bold py-3 px-6 rounded items-center gap-3"
-                  >
-                    <i className="fa-solid fa-phone-volume"></i> Send A Text
-                  </a>
-                  {/* <a
-                    target="_blank"
-                    href="mailto:contact@royalapprovals.com"
-                    className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
-                  >
-                    <i className="fa-regular fa-envelope-open"></i> Send An
-                    Email
-                  </a> */}
+              <div>
+                <div className="underline py-2 text-[#7E6374] lg:text-[50px] text-[25px]">
+                  Payment Plans & Processing Policy
                 </div>
+                <p>
+                  To begin any service with Royal Approvals, a 50% deposit is
+                  required at the time of purchase. The remaining balance must
+                  be paid before services are completed or finalized. <br />{" "}
+                  <br />A $50 payment plan administrative fee is added to all
+                  payment plan options. This fee covers scheduling, account
+                  management, and processing associated with extended payment
+                  arrangements. <br /> <br />
+                  All services are customized and preparatory in nature. Once
+                  work has begun, payment plan balances remain due regardless of
+                  outcome, as services cannot be reversed or transferred.
+                </p>
+              </div>
+
+              <div>
+                <div className="underline py-2 text-[#7E6374] lg:text-[50px] text-[25px]">
+                  Processing Time Notice
+                </div>
+
+                <p>
+                  Processing timelines begin after all required information,
+                  documentation, and deposits have been received. Estimated
+                  timelines are provided for planning purposes only and are not
+                  guarantees. <br /> <br />
+                  Rush processing is not available. Clients must begin services
+                  at least 30 days in advance to allow adequate preparation
+                  time, particularly when credit-related strategies are
+                  included. <br /> <br />
+                  By selecting a payment plan and submitting payment, you
+                  acknowledge and agree to these terms.
+                </p>
               </div>
             </div>
           </div>
@@ -618,18 +866,16 @@ function App() {
               Testimonials
             </p>
             <h1 className="lg:text-[40px] text-[20px] font-bold text-the_yellow">
-              Hear What Our Customers Say About Us
+              Hear What Our Clients Say
             </h1>
             <p className=" text-center">
-              At Royal Approval, we pride ourselves on putting smiles on the
-              faces of countless individuals by helping them secure approvals
-              for their dream homes and cars. Our clients consistently express
-              their gratitude for our efficient, supportive, and seamless
-              approval process. We understand the emotional and financial
-              significance of owning a home or car, and we are dedicated to
-              making these dreams a reality. Read below to see the heartfelt
-              stories of how we've transformed lives and provided peace of mind
-              through our exceptional services.
+              At Royal Approvals, we take pride in supporting individuals
+              through the application preparation process with clarity,
+              structure, and guidance. Our clients often share how having
+              organized support, clear next steps, and a strategic approach
+              helped them feel more confident moving forward. <br /> <br />
+              Below are real experiences from clients who valued our
+              professionalism, communication, and preparation-focused services.
             </p>
           </div>
           <div className="border-2 border-[#7E6374] pt-5">
@@ -671,7 +917,10 @@ function App() {
         </div>
 
         <section className="md:mb-40 mt-10">
-          <div className="md:w-[80%] w-[90%] mx-auto">
+          <div>
+            <FAQSection />
+          </div>
+          {/* <div className="md:w-[80%] w-[90%] mx-auto">
             <div className="flex gap-10 md:flex-row flex-col">
               <div className="">
                 <div className="flex flex-col gap-4">
@@ -737,18 +986,6 @@ function App() {
                     </p>
                   </div>
 
-                  {/* <div className="mt3">
-                    To purchase a package, please contact{" "}
-                    <a
-                      href="tel:+14049516649"
-                      target="_blank"
-                      className="text-[#7E6374] cursor-pointer"
-                    >
-                      404-951-6649
-                    </a>{" "}
-                    for any help
-                  </div> */}
-
                   <div className="mt-10 md:flex gap-2">
                     <a
                       href="tel:+14049516649"
@@ -757,19 +994,11 @@ function App() {
                     >
                       <i className="fa-solid fa-phone-volume"></i> Send A Text
                     </a>
-                    {/* <a
-                      target="_blank"
-                      href="mailto:contact@royalapprovals.com"
-                      className="bg-[#70CEE8] text-white font-bold py-3 px-6 rounded items-center gap-3"
-                    >
-                      <i className="fa-regular fa-envelope-open"></i> Send An
-                      Email
-                    </a> */}
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
 
         {/* <!-- Footer Section --> */}

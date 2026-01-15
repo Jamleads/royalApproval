@@ -1,5 +1,71 @@
 // After server ccorrectio
 // ftp password updated
+export const COLORS = {
+  lightGray: "#F2F5F5",
+  darkGray: "#595A5C",
+  darkGold: "#B8860B",
+  purple: "#7E6374",
+};
+
+export const faqs = [
+  {
+    question: "What does Royal Approvals do?",
+    answer:
+      "We provide application preparation + coaching for apartments, homes, and auto financing.",
+  },
+  {
+    question: "Do you guarantee approvals?",
+    answer:
+      "No. Approvals are decided by third parties and are never guaranteed.",
+  },
+  {
+    question: "Who is this best for?",
+    answer:
+      "People who've been denied before, have a complex history, or want a stronger, more organized application.",
+  },
+  {
+    question: "Can you help if I've been denied before?",
+    answer:
+      "Yes — we help you prepare and move forward with a clearer strategy.",
+  },
+  {
+    question: "Do you submit applications for me?",
+    answer: "No. We guide you, but you submit your own applications.",
+  },
+  {
+    question: "Do you contact landlords or lenders?",
+    answer:
+      "No. We don't communicate with landlords, employers, lenders, or property managers.",
+  },
+  {
+    question: 'What are "novelty documents"?',
+    answer:
+      "They're for personal records only. Not government-issued and not official ID.",
+  },
+  {
+    question: "How long does it take?",
+    answer:
+      "Timelines vary by package and start after we receive all required info. Timelines are estimates, not guarantees.",
+  },
+  {
+    question: "Do you offer payment plans?",
+    answer:
+      "Yes. A 50% deposit is required. Payment plans include a $50 admin fee.",
+  },
+  {
+    question: "Do you offer refunds?",
+    answer: "No refunds once work begins due to customized services.",
+  },
+  {
+    question: "What fees are NOT included?",
+    answer:
+      "Application fees, admin fees, deposits, move-in costs, rent, and any third-party charges.",
+  },
+  {
+    question: "How do I start?",
+    answer: "Book a consultation and we'll guide you to the best option.",
+  },
+];
 
 import {
   Cutomer1,
@@ -413,48 +479,48 @@ export const packages = [
     action:
       "Disclaimer: If any additional novelty documents are required, they must be purchased separately.",
   },
-  {
-    id: 7,
-    price: "$1300",
-    name: "Premium Car Package",
-    paymentUrl: "https://square.link/u/1lyaINhM",
-    subhead:
-      "Looking to build a stronger credit profile while securing your car? Our Premium Car Package offers a comprehensive solution designed to enhance your financial standing and streamline the car approval process",
-    benefits: [
-      {
-        title: "1. Personalized Profile:",
-        description:
-          "A custom profile created in your name to strengthen your application.",
-      },
-      {
-        title: "2. Two Tradelines:",
-        description:
-          "Includes two tradelines to help build or improve your credit history.",
-      },
-      {
-        title: "3. Four Paystubs & Two Months of Bank Statements:",
-        description:
-          "Essential documents provided to support your income verification and financial profile.",
-      },
-      {
-        title: "4. Employment Verification:",
-        description:
-          "Confirmation of your current employment for added credibility",
-      },
-      {
-        title: "5. Full Car Application Support:",
-        description:
-          "Our team will handle your car application directly to ensure the process goes smoothly.",
-      },
-      {
-        title: "6. Processing Timeline:",
-        description:
-          "This package requires 30–60 days from the close date of the tradeline for full completion.",
-      },
-    ],
-    action:
-      "Disclaimer: If any additional novelty documents are required, they must be purchased separately.",
-  },
+  // {
+  //   id: 7,
+  //   price: "$1300",
+  //   name: "Premium Car Package",
+  //   paymentUrl: "https://square.link/u/1lyaINhM",
+  //   subhead:
+  //     "Looking to build a stronger credit profile while securing your car? Our Premium Car Package offers a comprehensive solution designed to enhance your financial standing and streamline the car approval process",
+  //   benefits: [
+  //     {
+  //       title: "1. Personalized Profile:",
+  //       description:
+  //         "A custom profile created in your name to strengthen your application.",
+  //     },
+  //     {
+  //       title: "2. Two Tradelines:",
+  //       description:
+  //         "Includes two tradelines to help build or improve your credit history.",
+  //     },
+  //     {
+  //       title: "3. Four Paystubs & Two Months of Bank Statements:",
+  //       description:
+  //         "Essential documents provided to support your income verification and financial profile.",
+  //     },
+  //     {
+  //       title: "4. Employment Verification:",
+  //       description:
+  //         "Confirmation of your current employment for added credibility",
+  //     },
+  //     {
+  //       title: "5. Full Car Application Support:",
+  //       description:
+  //         "Our team will handle your car application directly to ensure the process goes smoothly.",
+  //     },
+  //     {
+  //       title: "6. Processing Timeline:",
+  //       description:
+  //         "This package requires 30–60 days from the close date of the tradeline for full completion.",
+  //     },
+  //   ],
+  //   action:
+  //     "Disclaimer: If any additional novelty documents are required, they must be purchased separately.",
+  // },
   {
     id: 8,
     price: "$1450",
