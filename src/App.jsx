@@ -371,13 +371,13 @@ function App() {
                       Support in preparing and organizing application materials
                       prior to submission.
                     </li>
-                    <li>
+                    {/* <li>
                       <span className=" font-bold">
                         Multi-Application Coaching
                       </span>{" "}
                       Guidance for up to five (5) home applications, unless
                       otherwise discussed.
-                    </li>
+                    </li> */}
                     <li>
                       <span className=" font-bold">
                         Credit-Building Strategy Inclusion
